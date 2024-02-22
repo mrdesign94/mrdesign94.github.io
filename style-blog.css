@@ -70,4 +70,6 @@ div#banner-home {
 
 .column.banner-home {
   vertical-align: middle;
+  width: 100%;
+  display: block;
 }
