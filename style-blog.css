@@ -44,3 +44,12 @@ height: auto;
   padding: 10px 0!important;
   border-bottom: 0px solid #eee!important;
 }
+.wrapper-masthead {
+  position: -webkit-sticky;
+  position: sticky;
+  top: 0;
+}
+
+.wrapper-masthead .container .masthead {
+background: #fff;
+}
