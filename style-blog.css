@@ -63,3 +63,7 @@ background: #fff;
 .col-50 {
   width: 50%;
 }
+
+.column.banner-home {
+  vertical-align: middle;
+}
