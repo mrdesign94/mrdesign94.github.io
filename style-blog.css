@@ -142,6 +142,8 @@ color: #c4161c;
 div.container, div.row, div.colum {
   padding-left: 5px;
   padding-right: 5px;
+  margin-left: 5px;
+  margin-right: 5px;
 }
 
 #main.container1 {
