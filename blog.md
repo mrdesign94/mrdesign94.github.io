@@ -4,8 +4,8 @@ title: Blog nhé
 permalink: /blog/
 ---
 
-Some information about you!
-Đây là page blog nhé
+#Some information about you!
+##Đây là page blog nhé
 
 ### More Information
 
