@@ -77,3 +77,8 @@ div#banner-home {
   width: 100%;
   display: block;
 }
+
+.column.banner-home .container .row {
+  display: flex;
+  align-items: center;
+}
