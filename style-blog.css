@@ -261,11 +261,12 @@ h2.subhead-banner {
   padding: 14px 16px;
   transition: 0.3s;
   font-size: 17px;
+  color: #000;
 }
 
 /* Change background color of buttons on hover */
 .tab button:hover {
-  background-color: #c4161c;
+  background-color: #b7b6ae;
 }
 
 /* Create an active/current tablink class */
