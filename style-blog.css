@@ -168,3 +168,24 @@ h2.subhead-banner {
 .text-justify {
   text-align: justify;
 }
+
+.box-colum-1 {
+  padding: 30px;
+  border-radius: 20px;
+  box-shadow: 0px 10px 25px -4px #ccc;
+}
+
+.pdt-10 {padding-top: 10px;} .pdt-20 {padding-top: 20px;} .pdt-30 {padding-top: 30px;} .pdt-40 {padding-top: 40px;} .pdt-50 {padding-top: 50px;} .pdt-60 {padding-top: 60px;} .pdt-70 {padding-top: 70px;} .pdt-80 {padding-top: 80px;} .pdt-90 {padding-top: 90px;}
+.pdt-100 {padding-top: 100px;}
+
+.pdb-10 {padding-top: 10px;} .pdb-20 {padding-top: 20px;} .pdb-30 {padding-top: 30px;} .pdb-40 {padding-top: 40px;} .pdb-50 {padding-top: 50px;} .pdb-60 {padding-top: 60px;} .pdb-70 {padding-top: 70px;} .pdb-80 {padding-top: 80px;} .pdb-90 {padding-top: 90px;}
+.pdb-100 {padding-top: 100px;}
+
+.pdl-10 {padding-top: 10px;} .pdl-20 {padding-top: 20px;} .pdbl-30 {padding-top: 30px;} .pdl-40 {padding-top: 40px;} .pdl-50 {padding-top: 50px;} .pdl-60 {padding-top: 60px;} .pdl-70 {padding-top: 70px;} .pdl-80 {padding-top: 80px;} .pdl-90 {padding-top: 90px;}
+.pdl-100 {padding-top: 100px;}
+
+.pdr-10 {padding-top: 10px;} .pdr-20 {padding-top: 20px;} .pdbr-30 {padding-top: 30px;} .pdr-40 {padding-top: 40px;} .pdr-50 {padding-top: 50px;} .pdr-60 {padding-top: 60px;} .pdr-70 {padding-top: 70px;} .pdr-80 {padding-top: 80px;} .pdr-90 {padding-top: 90px;}
+.pdr-100 {padding-top: 100px;}
+
+
+.pd-10 {padding: 10px;} .pd-20 {padding: 20px;} .pd-30 {padding: 30px;} .pd-40 {padding: 40px;} .pd-50 {padding: 50px;} .pd-60 {padding: 60px;} .pd-70 {padding: 70px;} .pd-80 {padding: 80px;} .pd-90 {padding: 90px;} .pd-100 {padding: 100px;}
