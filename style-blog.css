@@ -27,3 +27,7 @@ ul.menu-css {
   margin-left: 0px;
   margin-right: 20px;
 }
+nav .menu-sub ul.menu-css li a {
+margin-right: 20px;
+text-aling: center!important;
+}
