@@ -242,7 +242,6 @@ h2.subhead-banner {
 /* Style the buttons inside the tab */
 .tab button {
   background-color: inherit;
-  float: left;
   border: none;
   outline: none;
   cursor: pointer;
