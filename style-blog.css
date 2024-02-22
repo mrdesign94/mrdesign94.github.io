@@ -303,7 +303,7 @@ h2.subhead-banner {
 
 .exri_item {
   align-items: center;
-  border-top: 1px solid var(--cusborder);
+  border-top: 1px solid  #ffc943;
   display: flex;
   justify-content: space-between;
   padding-bottom: 24px;
@@ -312,11 +312,11 @@ h2.subhead-banner {
 }
 
 .exri_item:last-child {
-    border-bottom: 1px solid var(--cusborder)
+    border-bottom: 1px solid  #ffc943;
 }
 
 .exri_item:hover {
-    border-color: var(--hover)
+    border-color: var(--hover);
 }
 
 @media (max-width: 500px) {
