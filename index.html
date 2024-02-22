@@ -1,7 +1,13 @@
 ---
 layout: default
 ---
-
+<body>
+  <container>
+    <row>
+      {{ content }}
+    </row>
+  </container>
+</body>
 <div class="posts">
   {% for post in site.posts %}
     <article class="post">
