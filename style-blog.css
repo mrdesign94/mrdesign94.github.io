@@ -144,5 +144,9 @@ padding-right: 0px!important;
 }
 h1.head-banner {
   font-size: 45px;
-  line-height: 1.25;
+  line-height: 1.1;
+}
+h2.subhead-banner {
+  font-size: 30px;
+  line-height: 1.1;
 }
