@@ -115,11 +115,12 @@ div#banner-home {
   font-size: 1em;
   font-weight: normal;
   text-align: justify;
+    line-height: 1.4;
 }
 .btn-banner a {
 padding: 8px 15px;
 border: 1px solid #000;
 border-radius: 50px;
 color: #000;
-margin-top: 1em; 
+margin-top: 1em;
 }
