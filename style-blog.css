@@ -153,8 +153,9 @@ padding-left: 0px!important;
 padding-right: 0px!important;
 }
 h1.head-banner {
-  font-size: 45px;
+  font-size: 70px;
   line-height: 1.1;
+  font-weight: 900;
 }
 h2.subhead-banner {
   font-size: 30px;
@@ -212,7 +213,7 @@ h2.subhead-banner {
 }
 .designers:before {
     animation: pulse-width 3s ease-in infinite;
-    color: #b8c197;
+    color: #c4161c;
     content: attr(data-text);
     overflow: hidden;
     position: absolute;
