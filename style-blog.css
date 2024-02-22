@@ -195,5 +195,32 @@ h2.subhead-banner {
 
 .title-size-1 h2{
   font-size: 43px;
-  font-weight: 900;
+  font-weight: 800;
 }
+.d-block {
+	display: block !important;
+}
+
+.designers, .designers:before {
+    -webkit-text-stroke-width: 1px;
+}
+.designers {
+    -webkit-text-stroke-color: #000;
+    color: transparent;
+    position: relative;
+    transition: all .5s;
+}
+.designers:before {
+    animation: pulse-width 3s ease-in infinite;
+    color: #b8c197;
+    content: attr(data-text);
+    overflow: hidden;
+    position: absolute;
+    width: 0;
+    -webkit-text-stroke-color: #000;
+}
+@keyframes pulse-width {
+                50% {
+                    width: 100%
+                }
+            }
