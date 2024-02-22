@@ -48,6 +48,7 @@ height: auto;
   position: -webkit-sticky;
   position: sticky;
   top: 0;
+  background: #fff;
 }
 
 .wrapper-masthead .container .masthead {
