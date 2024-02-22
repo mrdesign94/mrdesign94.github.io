@@ -30,13 +30,8 @@ body {
   width: 100%;
 }
 
-h1,
-h2,
-h3,
-h4,
-h5,
-h6 {
-  font-family: "Hanken Grotes";
+h1,h2,h3,h4,h5,h6, p {
+  font-family: "Hanken Grotes", Arial, Helvetica, sans-serif;;
   color: $darkerGray;
   font-weight: bold;
 
