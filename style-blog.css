@@ -156,6 +156,7 @@ h1.head-banner span {
   font-size: 70px;
   line-height: 1.1;
   font-weight: 900;
+  margin: 0px!important;
 }
 h2.subhead-banner {
   font-size: 30px;
