@@ -5,7 +5,8 @@ permalink: /blog/
 ---
 
 Some information <br> about you!
-###Đây là page blog nhé
+
+## Đây là page blog nhé
 
 ### More Information
 
