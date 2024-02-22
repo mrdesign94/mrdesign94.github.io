@@ -9,12 +9,12 @@
 }
 
 /*---Main---*/
-.btn-call {
+.btn-call a {
   padding: 15px 25px;
   border-radius: 50px;
   border: 1px solid #c4161c;
 }
-.btn-call:hover {
+.btn-call:hover a {
   color: #c4161c!important;
   background: #ccc!important;
 }
