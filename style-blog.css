@@ -285,3 +285,9 @@ h2.subhead-banner {
     overflow: hidden;
     padding: 60px;
 }
+.tabitem.active {
+    opacity: 1;
+    position: static;
+    transform: translateY(0);
+    z-index: 1;
+}
