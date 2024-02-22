@@ -262,6 +262,12 @@ h2.subhead-banner {
   transition: 0.3s;
   font-size: 17px;
   color: #000;
+  font-size: 1.2em;
+  font-family: 'Hanken Grotesk', sans-serif;
+  font-weight: 600;
+  padding: 18px 30px;
+  margin: 0px 5px;
+  border-radius: 7px;
 }
 
 /* Change background color of buttons on hover */
@@ -281,4 +287,5 @@ h2.subhead-banner {
   border: 0px solid #ccc;
   border-top: none;
   background: #ddd;
+  border-radius: 15px;
 }
