@@ -56,8 +56,9 @@ background: #fff;
 
 
 /*----Home----*/
-section#banner-home {
-  width: 1920px!important;
+div#banner-home {
+  width: 100%!important;
+  max-width: 1920px!important;
 }
 #banner-home {
   background: #ffc943;
