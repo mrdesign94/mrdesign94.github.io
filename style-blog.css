@@ -230,3 +230,58 @@ h2.subhead-banner {
                     width: 100%
                 }
             }
+
+
+/*-----tab----*/
+.about__section .singletab .tablinks {
+    align-items: center;
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    margin-bottom: 100px;
+}
+.tabcontents {
+    position: relative;
+}
+.about__section .singletab .tablinks li button {
+    background-color: #1d1d1d;
+    border: unset;
+    border-radius: 10px;
+    color: var(--white);
+    font-size: 18px;
+    font-weight: 500;
+    padding: 16px 30px;
+    text-align: center;
+    text-transform: uppercase;
+}
+.about__section .singletab .tablinks li.active button {
+    background: var(--base);
+    color: var(--title);
+}
+.about__section .singletab .tablinks li button {
+    background-color: #1d1d1d;
+    border: unset;
+    border-radius: 10px;
+    color: var(--white);
+    font-size: 18px;
+    font-weight: 500;
+    padding: 16px 30px;
+    text-align: center;
+    text-transform: uppercase;
+}
+.tabitem {
+    opacity: 0;
+    position: absolute;
+    top: 0;
+    transform: translateY(100px);
+    transition: all .5s;
+    width: 100%;
+    z-index: -1;
+}
+.about__v1wrap {
+    background: url(/_nuxt/about-bg.e079b505.png) no-repeat 50%;
+    background-size: cover;
+    border-radius: 10px;
+    overflow: hidden;
+    padding: 60px;
+}
