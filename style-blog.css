@@ -7,3 +7,14 @@
   font-weight: <weight>;
   font-style: normal;
 }
+
+/*---Main---*/
+.btn-call {
+  padding: 15px 25px;
+  border-radius: 50px;
+  border: 1px solid #c4161c;
+}
+.btn-call:hover {
+  color: #c4161c!important;
+  background: #ccc!important;
+}
