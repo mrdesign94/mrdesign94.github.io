@@ -54,7 +54,8 @@ height: auto;
 background: #fff;
 }
 
-
+.wrapper-masthead {
+  margin-bottom: 0px!important;
 /*----Home----*/
 div#banner-home {
   width: 100%!important;
