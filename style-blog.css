@@ -18,3 +18,12 @@
   color: #c4161c!important;
   background: #ccc!important;
 }
+
+ul.menu-css {
+  align-items: center;
+}
+.menu-sub ul.menu-css li.btn-call a {
+  text-align: center;
+  margin-left: 0px;
+  margin-right: 20px;
+}
