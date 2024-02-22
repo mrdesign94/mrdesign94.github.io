@@ -39,3 +39,8 @@ width: 210px!important;
 height: auto;
 
 }
+
+.masthead {
+  padding: 10px 0!important;
+  border-bottom: 0px solid #eee!important;
+}
