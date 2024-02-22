@@ -291,7 +291,7 @@ h2.subhead-banner {
 }
 
 //*---content---*//
-.exri_item {
+/* .exri_item {
     align-items: center;
     border-top: 1px solid var(--cusborder);
     display: flex;
@@ -299,4 +299,36 @@ h2.subhead-banner {
     padding-bottom: 24px;
     padding-top: 24px;
     transition: all .4s;
+} */
+
+.exri_item {
+                align-items: center;
+                border-top: 1px solid var(--cusborder);
+                display: flex;
+                justify-content: space-between;
+                padding-bottom: 24px;
+                padding-top: 24px;
+                transition: all .4s
+            }
+
+            .exri_item:last-child {
+                border-bottom: 1px solid var(--cusborder)
+            }
+
+            .exri_item:hover {
+                border-color: var(--hover)
+            }
+
+            @media (max-width: 500px) {
+                .exri_item .expri_cont h4 {
+                    font-size:18px
+                }
+            }
+
+
+.align-items-lg-start {
+  align-items: flex-start !important;
+}
+.align-items-center {
+  align-items: center !important;
 }
