@@ -61,11 +61,13 @@ background: #fff;
 div#banner-home {
   width: 100%!important;
   max-width: 1920px!important;
-  padding-left: 0px;
-  padding-right: 0px;
+  padding-left: 0px!important;
+  padding-right: 0px!important;
 }
 #banner-home {
   background: #ffc943;
+  padding-left: 0px!important;
+  padding-right: 0px!important;
 }
 .container .row {
   width: 100%;
