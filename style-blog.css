@@ -289,3 +289,14 @@ h2.subhead-banner {
   background: #ddd;
   border-radius: 15px;
 }
+
+//*---content---*//
+.exri_item {
+    align-items: center;
+    border-top: 1px solid var(--cusborder);
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 24px;
+    padding-top: 24px;
+    transition: all .4s;
+}
