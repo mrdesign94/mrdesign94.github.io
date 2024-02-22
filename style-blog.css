@@ -33,3 +33,9 @@ nav .menu-sub ul.menu-css li a {
 margin-right: 20px;
 text-aling: center!important;
 }
+
+.site-avatar {
+width: 210px!important;
+height: auto;
+
+}
