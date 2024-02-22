@@ -332,3 +332,21 @@ h2.subhead-banner {
 .align-items-center {
   align-items: center !important;
 }
+
+
+
+
+
+/*-----*/
+.about__onecontent .about__contactwrap {
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 40px;
+}
+.about__onecontent .about__contactwrap .abox {
+    background-color: #1d1d1d;
+    border: 1px solid #1d1d1d;
+    border-radius: 10px;
+    padding: 35px;
+    transition: all .4s;
+}
