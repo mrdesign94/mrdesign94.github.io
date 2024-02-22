@@ -65,6 +65,9 @@ div#banner-home {
 #banner-home {
   background: #ffc943;
 }
+.container .row {
+  width: 100%;
+}
 .col-50 {
   width: 50%!important;
 }
