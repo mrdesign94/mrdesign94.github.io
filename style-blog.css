@@ -341,7 +341,6 @@ h2.subhead-banner {
 .about__onecontent .about__contactwrap {
     display: flex;
     flex-wrap: wrap;
-    margin-top: 40px;
 }
 .about__onecontent .about__contactwrap .abox {
     background-color: #1d1d1d;
