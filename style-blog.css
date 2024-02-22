@@ -56,12 +56,14 @@ background: #fff;
 
 
 /*----Home----*/
+section#banner-home {
+  width: 1920px!important;
+}
 #banner-home {
-  width: 100%!important;
   background: #ffc943;
 }
 .col-50 {
-  width: 50%;
+  width: 50%!important;
 }
 
 .column.banner-home {
