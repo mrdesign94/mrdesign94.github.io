@@ -18,6 +18,7 @@
 .btn-call:hover a {
   color: #fff!important;
   background: #c4161c!important;
+  transition: 0.3s;
 }
 
 ul.menu-css {
