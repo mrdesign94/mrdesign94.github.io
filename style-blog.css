@@ -13,10 +13,11 @@
   padding: 8px 20px;
   border-radius: 50px;
   border: 1px solid #c4161c;
+  color: #c4161c;
 }
 .btn-call:hover a {
-  color: #c4161c!important;
-  background: #ccc!important;
+  color: #fff!important;
+  background: #c4161c!important;
 }
 
 ul.menu-css {
