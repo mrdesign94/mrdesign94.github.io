@@ -110,3 +110,9 @@ div#banner-home {
   align-items: center;
   padding: 70px 0px;
 }
+
+.text-banner {
+  font-size: 1em;
+  font-weight: normal;
+  text-align: justify;
+}
