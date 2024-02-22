@@ -9,6 +9,9 @@
 }
 
 /*---Main---*/
+html {
+  scroll-behavior: smooth;
+}
 .btn-call a {
   padding: 8px 20px;
   border-radius: 50px;
