@@ -12,8 +12,8 @@
 .btn-call a {
   padding: 8px 20px;
   border-radius: 50px;
-  border: 1px solid #fac832;
-  color: #fac832;
+  border: 1px solid #000;
+  color: #000;
 }
 .btn-call:hover a {
   color: #fff!important;
@@ -156,4 +156,8 @@ h2.subhead-banner {
   font-size: 30px;
   line-height: 1.1;
   padding: 15px 0px;
+}
+
+.inline-flex {
+   display: inline-flex;
 }
