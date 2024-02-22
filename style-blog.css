@@ -19,6 +19,7 @@
   color: #fff!important;
   background: #fac832!important;
   transition: 0.3s;
+  border: 1px solid #fac832;
 }
 
 ul.menu-css {
@@ -180,14 +181,14 @@ h2.subhead-banner {
 .pdt-10 {padding-top: 10px;} .pdt-20 {padding-top: 20px;} .pdt-30 {padding-top: 30px;} .pdt-40 {padding-top: 40px;} .pdt-50 {padding-top: 50px;} .pdt-60 {padding-top: 60px;} .pdt-70 {padding-top: 70px;} .pdt-80 {padding-top: 80px;} .pdt-90 {padding-top: 90px;}
 .pdt-100 {padding-top: 100px;}
 
-.pdb-10 {padding-top: 10px;} .pdb-20 {padding-top: 20px;} .pdb-30 {padding-top: 30px;} .pdb-40 {padding-top: 40px;} .pdb-50 {padding-top: 50px;} .pdb-60 {padding-top: 60px;} .pdb-70 {padding-top: 70px;} .pdb-80 {padding-top: 80px;} .pdb-90 {padding-top: 90px;}
-.pdb-100 {padding-top: 100px;}
+.pdb-10 {padding-bottom: 10px;} .pdb-20 {padding-bottom: 20px;} .pdb-30 {padding-bottom: 30px;} .pdb-40 {padding-bottom: 40px;} .pdb-50 {padding-bottom: 50px;} .pdb-60 {padding-bottom: 60px;} .pdb-70 {padding-bottom: 70px;} .pdb-80 {padding-bottom: 80px;} .pdb-90 {padding-bottom: 90px;}
+.pdb-100 {padding-bottom: 100px;}
 
-.pdl-10 {padding-top: 10px;} .pdl-20 {padding-top: 20px;} .pdbl-30 {padding-top: 30px;} .pdl-40 {padding-top: 40px;} .pdl-50 {padding-top: 50px;} .pdl-60 {padding-top: 60px;} .pdl-70 {padding-top: 70px;} .pdl-80 {padding-top: 80px;} .pdl-90 {padding-top: 90px;}
-.pdl-100 {padding-top: 100px;}
+.pdl-10 {padding-left: 10px;} .pdl-20 {padding-left: 20px;} .pdbl-30 {padding-left: 30px;} .pdl-40 {padding-left: 40px;} .pdl-50 {padding-left: 50px;} .pdl-60 {padding-left: 60px;} .pdl-70 {padding-left: 70px;} .pdl-80 {padding-left: 80px;} .pdl-90 {padding-left: 90px;}
+.pdl-100 {padding-left: 100px;}
 
-.pdr-10 {padding-top: 10px;} .pdr-20 {padding-top: 20px;} .pdbr-30 {padding-top: 30px;} .pdr-40 {padding-top: 40px;} .pdr-50 {padding-top: 50px;} .pdr-60 {padding-top: 60px;} .pdr-70 {padding-top: 70px;} .pdr-80 {padding-top: 80px;} .pdr-90 {padding-top: 90px;}
-.pdr-100 {padding-top: 100px;}
+.pdr-10 {padding-right: 10px;} .pdr-20 {padding-right: 20px;} .pdbr-30 {padding-right: 30px;} .pdr-40 {padding-right: 40px;} .pdr-50 {padding-right: 50px;} .pdr-60 {padding-right: 60px;} .pdr-70 {padding-right: 70px;} .pdr-80 {padding-right: 80px;} .pdr-90 {padding-right: 90px;}
+.pdr-100 {padding-right: 100px;}
 
 
 .pd-10 {padding: 10px;} .pd-20 {padding: 20px;} .pd-30 {padding: 30px;} .pd-40 {padding: 40px;} .pd-50 {padding: 50px;} .pd-60 {padding: 60px;} .pd-70 {padding: 70px;} .pd-80 {padding: 80px;} .pd-90 {padding: 90px;} .pd-100 {padding: 100px;}
