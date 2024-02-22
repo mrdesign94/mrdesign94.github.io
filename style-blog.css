@@ -65,7 +65,6 @@ div#banner-home {
   padding-right: 0px!important;
 }
 #banner-home {
-  background: #ffc943;
   padding-left: 0px!important;
   padding-right: 0px!important;
 }
@@ -109,6 +108,7 @@ div#banner-home {
   display: block;
   padding-left: 0px!important;
   padding-right: 0px!important;
+  background: #ffc943;
 }
 
 .column.banner-home .container .row {
