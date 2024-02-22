@@ -290,7 +290,7 @@ h2.subhead-banner {
   border-radius: 15px;
 }
 
-//*---content---*//
+/*---content---*/
 /* .exri_item {
     align-items: center;
     border-top: 1px solid var(--cusborder);
@@ -302,28 +302,28 @@ h2.subhead-banner {
 } */
 
 .exri_item {
-                align-items: center;
-                border-top: 1px solid var(--cusborder);
-                display: flex;
-                justify-content: space-between;
-                padding-bottom: 24px;
-                padding-top: 24px;
-                transition: all .4s
-            }
+  align-items: center;
+  border-top: 1px solid var(--cusborder);
+  display: flex;
+  justify-content: space-between;
+  padding-bottom: 24px;
+  padding-top: 24px;
+  transition: all .4s
+}
 
-            .exri_item:last-child {
-                border-bottom: 1px solid var(--cusborder)
-            }
+.exri_item:last-child {
+    border-bottom: 1px solid var(--cusborder)
+}
 
-            .exri_item:hover {
-                border-color: var(--hover)
-            }
+.exri_item:hover {
+    border-color: var(--hover)
+}
 
-            @media (max-width: 500px) {
-                .exri_item .expri_cont h4 {
-                    font-size:18px
-                }
-            }
+@media (max-width: 500px) {
+.exri_item .expri_cont h4 {
+  font-size:18px
+    }
+}
 
 
 .align-items-lg-start {
