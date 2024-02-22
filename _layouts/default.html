@@ -2,7 +2,6 @@
 <html>
   <head>
     <title>{% if page.title %}{{ page.title }} – {% endif %}{{ site.name }} – {{ site.description }}</title>
-
     {% include meta.html %}
     <link rel="shortcut icon" href="https://vietphu2021.github.io/designdemoweb/assets/icon/Favicon.png">
     <link rel="apple-touch-icon-precomposed" href="https://vietphu2021.github.io/designdemoweb/assets/icon/Favicon.png">    
@@ -13,26 +12,20 @@
     <link rel="stylesheet" type="text/css" href="{{ site.baseurl }}/style.css" />
     <link rel="stylesheet" type="text/css" href="{{ site.baseurl }}/style-blog.css" />
     <link rel="alternate" type="application/rss+xml" title="{{ site.name }} - {{ site.description }}" href="{{ site.baseurl }}/feed.xml" />
-
     <style>
-@import url('https://fonts.googleapis.com/css2?family=Hanken+Grotesk:ital,wght@0,100..900;1,100..900&display=swap')
-</style>
-    
-
+     @import url('https://fonts.googleapis.com/css2?family=Hanken+Grotesk:ital,wght@0,100..900;1,100..900&display=swap')
+    </style>
     <!-- Created with Jekyll Now - http://github.com/barryclark/jekyll-now -->
   </head>
-
   <body>
     <div class="wrapper-masthead">
       <div class="container">
         <header class="masthead clearfix">
           <a href="{{ site.baseurl }}/" class="site-avatar"><img src="https://vietphu2021.github.io/designdemoweb/assets/icon/Favicon.png" /></a>
-
           <div class="site-info">
             <h1 class="site-name"><a href="{{ site.baseurl }}/">{{ site.name }}</a></h1>
             <p class="site-description">{{ site.description }}</p>
           </div>
-
           <nav>
             <div class="menu-sub" style="  display: inline-flex;  list-style-type: none;">
               <ul style="  display: inline-flex;  list-style-type: none;">
