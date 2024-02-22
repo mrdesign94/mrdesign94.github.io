@@ -126,3 +126,8 @@ color: #000;
 .btn-banner {
   margin-top: 1.8em;
 }
+
+div {
+  padding-left: 5px;
+  padding-right: 5px;
+}
