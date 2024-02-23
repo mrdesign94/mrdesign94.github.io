@@ -351,10 +351,11 @@ h2.subhead-banner {
 }
 
 .box-info-css {
-  background-color: #b7b6ae;
+  background-color: #ccc;
   border-radius: 15px;
+  border: 1px solid #ccc;
 }
 .box-info-css:hover {
   border: 1px solid #FFC943;
-  transition: 0.3s;
+  transition: 0.5s;
 }
