@@ -356,6 +356,6 @@ h2.subhead-banner {
   border: 1px solid #ccc;
 }
 .box-info-css:hover {
-  border: 1px solid #FFC943;
+  border: 1px solid #000;
   transition: 0.5s;
 }
