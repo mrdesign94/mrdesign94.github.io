@@ -314,7 +314,7 @@ h2.subhead-banner {
 }
 
 .tabcontent.active {
-  display: block!important;
+  display: block;
   opacity: 1;
 }
 
