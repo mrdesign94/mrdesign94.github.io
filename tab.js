@@ -9,9 +9,9 @@ function openCity(evt, cityName) {
   for (i = 0; i < tablinks.length; i++) {
     tablinks[i].className = tablinks[i].className.replace(" active", "");
   }
-  tablinks = document.getElementsByClassName("tabcontent");
+  tabcontent = document.getElementsByClassName("tabcontent");
   for (i = 0; i < tablinks.length; i++) {
-    tablinks[i].className = tabcontent[i].className.replace(" active", "");
+    tabcontent[i].className = tabcontent[i].className.replace(" active", "");
   }
   document.getElementById(cityName).style.display = "block";
   evt.currentTarget.className += " active";
