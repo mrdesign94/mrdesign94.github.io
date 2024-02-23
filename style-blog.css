@@ -316,6 +316,7 @@ h2.subhead-banner {
 .tabcontent.active {
   display: block;
   opacity: 1;
+  transition: opacity 0.55s ease-in;
 }
 
 /*---content---*/
