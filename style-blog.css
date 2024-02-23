@@ -634,7 +634,7 @@ span.text-sub-title {
   font-family:Caveat,cursive!important
 }
 
-.about__contbox__item .icon {
+.about__contbox__item1 .icon {
     align-items: center;
     background: #ffc943;
     border-radius: 50%;
@@ -646,13 +646,13 @@ span.text-sub-title {
     line-height: 1.5;
     font-size: 25px;
 }
-.about__contbox__item {
+.about__contbox__item1 {
     align-items: center;
     border-bottom: 1px solid #ccc;
     display: flex;
     gap: 20px;
     transition: all .4s;
 }
-.about__contbox__item:hover {
+.about__contbox__item1:hover {
   border-bottom: 1px solid #ffc943;
 }
