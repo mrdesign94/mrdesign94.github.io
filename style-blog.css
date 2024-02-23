@@ -563,3 +563,6 @@ font-size: 30px;
 color: #fff;
 rotate: 45deg;
 }
+.hover-shadow.cursor:hover .content a.common__icon {
+background-color: #ffc943!important;
+}
