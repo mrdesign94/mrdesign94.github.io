@@ -129,16 +129,18 @@ div#banner-home {
     line-height: 1.4;
 }
 .btn-banner a {
+padding: 13px 40px;
+border: 1px solid #000;
+border-radius: 50px;
+color: #ffc943;
+background: #000;
+}
+.btn-banner:hover a {
 padding: 8px 25px;
 border: 1px solid #000;
 border-radius: 50px;
 color: #000;
-}
-.btn-banner:hover a {
-padding: 8px 25px;
-border: 1px solid #c4161c;
-border-radius: 50px;
-color: #c4161c;
+background: #ffc943;
 }
 .btn-banner {
   margin-top: 2em;
