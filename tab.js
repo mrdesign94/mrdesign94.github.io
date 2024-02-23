@@ -1,4 +1,3 @@
-<script>
 console.log("Hello World");
 function openCity(evt, cityName) {
   var i, tabcontent, tablinks;
@@ -9451,5 +9450,3 @@ let Oi;
   )
 }
 export {jn as $, Wt as A, rt as B, zc as C, He as D, Cg as E, Ne as F, bg as G, Wc as H, Kc as I, zo as J, po as K, _a as L, St as M, xg as N, kl as O, Ai as P, kg as Q, Nn as R, Rr as S, Yo as T, yf as U, uo as V, Ka as W, es as X, pe as Y, Rg as Z, lg as _, Ia as a, Ag as a0, Yp as a1, Qp as a2, he as b, yu as c, ja as d, yg as e, Tg as f, Eg as g, vg as h, In as i, ot as j, Ve as k, dn as l, nn as m, _r as n, mt as o, mg as p, Do as q, _t as r, Uo as s, gg as t, de as u, wg as v, ia as w, kn as x, _g as y, ya as z};
-
-</script>
