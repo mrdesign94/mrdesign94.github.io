@@ -252,7 +252,7 @@ h2.subhead-banner {
     transition: all .5s;
 }
 .designers:before {
-    animation: pulse-width 3s ease-in infinite;
+    animation: pulse-width 1.5s ease-in infinite;
     color: #c4161c;
     content: attr(data-text);
     overflow: hidden;
@@ -261,7 +261,7 @@ h2.subhead-banner {
     -webkit-text-stroke-color: #000;
 }
 @keyframes pulse-width {
-                50% {
+                100% {
                     width: 100%
                 }
             }
