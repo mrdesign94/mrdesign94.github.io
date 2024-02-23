@@ -310,9 +310,13 @@ h2.subhead-banner {
   background: #ddd;
   border-radius: 15px;
   transition: 0.55s ease-in;
+  opacity: 0;
 }
 
-.tabcontent {}
+.tabcontent.active {
+  display: block!important;
+  opacity: 1;
+}
 
 /*---content---*/
 /* .exri_item {
