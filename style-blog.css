@@ -317,6 +317,7 @@ h2.subhead-banner {
 .tabcontent.active {
   opacity: 1!important;
   transform: translateY(0px);
+  position: static;
 }
 /*---content---*/
 /* .exri_item {
