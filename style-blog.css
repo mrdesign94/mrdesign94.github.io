@@ -540,3 +540,17 @@ ul.social-css li:hover a {
 .social-css-edit a:hover {
   color: #c4161c!important;
 }
+
+.justify-content-between {
+  justify-content: space-between!important;
+}
+.common__icon {
+  align-items: center;
+  background-color: #1d1d1d;
+  border-radius: 6px;
+  display: flex;
+  height: 60px;
+  justify-content: center;
+  min-width: 60px;
+  transition: all .4s;
+}
