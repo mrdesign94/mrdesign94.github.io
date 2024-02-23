@@ -659,6 +659,6 @@ span.text-sub-title {
 .about__contbox__item1 .box .ptext a {
 color: #7e7e7e;
 }
-.about__contbox__item1 .box .ptext a:hover {
+.about__contbox__item1 .box a:hover {
 color: #c4161c;
 }
