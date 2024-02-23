@@ -321,6 +321,7 @@ h2.subhead-banner {
   transform: translateY(0px);
   position: static;
   z-index: 1;
+  transition: all .5s;
 }
 /*---content---*/
 /* .exri_item {
