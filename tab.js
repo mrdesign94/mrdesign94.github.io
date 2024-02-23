@@ -14,6 +14,7 @@ function openCity(evt, cityName) {
     tabcontent[i].className = tabcontent[i].className.replace(" active", "");
   }
   document.getElementByClassName("tabcontent").className.replace(" active", "");
+  document.getElementById(cityName).style.display = "block";
   evt.currentTarget.className += " active";
 }
 
