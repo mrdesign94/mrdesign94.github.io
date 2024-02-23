@@ -633,3 +633,13 @@ span.text-sub-title {
   font-weight: 300;
   font-family:Caveat,cursive!important
 }
+
+.pro__metting__content .about__contbox__item .icon {
+    align-items: center;
+    background: #ffc943;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    min-height: 60px;
+    min-width: 60px;
+}
