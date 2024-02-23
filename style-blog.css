@@ -628,7 +628,8 @@ h2.section-title-css-h2 {
   font-weight: 800;
 }
 span.text-sub-title {
-  font-size: 26px;
+  font-size: 35px;
   color: #ffc943!important;
   font-weight: 300;
+  font-family:Caveat,cursive!important
 }
