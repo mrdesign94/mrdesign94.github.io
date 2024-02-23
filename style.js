@@ -1,4 +1,4 @@
-console.log("Hello, World!");
+console.log("Hello, World! Style-JS");
 function openModal() {
   document.getElementById("myModal").style.display = "block";
 }

@@ -1,4 +1,4 @@
-console.log("Hello, World! Nhé");
+console.log("Hello, World! tab-js");
 function openCity(evt, cityName) {
   var i, tabcontent, tablinks;
   tabcontent = document.getElementsByClassName("tabcontent");
