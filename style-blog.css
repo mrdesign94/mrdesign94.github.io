@@ -646,3 +646,10 @@ span.text-sub-title {
     line-height: 1.5;
     font-size: 25px;
 }
+.about__contbox__item {
+    align-items: center;
+    border-bottom: 1px solid #262525;
+    display: flex;
+    gap: 20px;
+    transition: all .4s;
+}
