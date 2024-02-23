@@ -399,7 +399,7 @@ h2.subhead-banner {
   width: 100%;
   height: 100%;
   overflow: auto;
-  background-color: #00000085; /* Fallback color */
+  background-color: #000000b5; /* Fallback color */
   transition: 0.3s;
 }
 
@@ -417,9 +417,9 @@ h2.subhead-banner {
 .close {
   color: white;
   position: absolute;
-  top: 50px;
-  right: 285px;
-  font-size: 90px;
+  top: 60px;
+  right: 300px;
+  font-size: 70px;
   font-weight: bold;
   z-index: 9;
 }
@@ -489,7 +489,7 @@ img {
 }
 
 .demo {
-  opacity: 0.6;
+  opacity: 0.9;
 }
 
 .active,
@@ -502,7 +502,7 @@ img.hover-shadow {
 }
 
 .hover-shadow:hover {
-  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 15px 0 rgba(0, 0, 0, 0.1);
 }
 
 
