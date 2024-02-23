@@ -648,8 +648,11 @@ span.text-sub-title {
 }
 .about__contbox__item {
     align-items: center;
-    border-bottom: 1px solid #262525;
+    border-bottom: 1px solid #ccc;
     display: flex;
     gap: 20px;
     transition: all .4s;
+}
+.about__contbox__item:hover {
+  border-bottom: 1px solid #ffc943;
 }
