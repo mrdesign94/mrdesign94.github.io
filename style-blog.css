@@ -270,6 +270,7 @@ h2.subhead-banner {
 /*-----tab----*/
 .tab {
   overflow: hidden;
+  transition: color 0.15s ease-in;
 }
 
 /* Style the buttons inside the tab */
@@ -293,11 +294,13 @@ h2.subhead-banner {
 /* Change background color of buttons on hover */
 .tab button:hover {
   background-color: #b7b6ae;
+  transition: color 0.15s ease-in;
 }
 
 /* Create an active/current tablink class */
 .tab button.active {
   background-color: #ffc943;
+  transition: color 0.15s ease-in;
 }
 
 /* Style the tab content */
@@ -308,7 +311,7 @@ h2.subhead-banner {
   border-top: none;
   background: #ddd;
   border-radius: 15px;
-  transition: 0.3s;
+  transition: color 0.15s ease-in;
 }
 
 /*---content---*/
@@ -540,6 +543,7 @@ ul.social-css li:hover a {
 }
 .social-css-edit a:hover {
   color: #c4161c!important;
+  transition: 0.3s;
 }
 
 .justify-content-between {
