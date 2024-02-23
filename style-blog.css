@@ -554,3 +554,7 @@ ul.social-css li:hover a {
   min-width: 60px;
   transition: all .4s;
 }
+
+.d-flex {
+  display: flex!important;
+}
