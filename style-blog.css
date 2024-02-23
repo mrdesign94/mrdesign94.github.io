@@ -326,8 +326,6 @@ h2.subhead-banner {
   border-top: 1px solid  #b7b6ae;
   display: flex;
   justify-content: space-between;
-  padding-bottom: 24px;
-  padding-top: 24px;
   transition: all .4s
 }
 
