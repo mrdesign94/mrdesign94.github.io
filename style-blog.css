@@ -359,3 +359,10 @@ h2.subhead-banner {
   border: 1px solid #000;
   transition: 0.5s;
 }
+
+
+.myskill__item {
+  align-items: center;
+  display: flex;
+  gap: 24px;
+}
