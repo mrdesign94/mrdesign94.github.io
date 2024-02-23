@@ -662,3 +662,7 @@ color: #7e7e7e;
 .about__contbox__item1 .box a:hover {
 color: #c4161c;
 }
+
+.about__contbox__item1 .box span {
+font-size: 25px;
+}
