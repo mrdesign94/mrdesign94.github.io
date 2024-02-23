@@ -578,3 +578,10 @@ span.title-span-css {
   font-weight: 400;
   font-size: 20px;
 }
+h2.section-title-css-h2 {
+  font-size: 30px;
+}
+span.text-sub-title {
+  font-size: 22px;
+  color: #ffc943!important;
+}
