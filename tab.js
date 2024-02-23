@@ -14,7 +14,7 @@ function openCity(evt, cityName) {
 
   tabcontent = document.getElementsByClassName("tabcontent");
   for (i = 0; i < tabcontent.length; i++) {
-    tabcontent[i].className = tabcontent[i].className.replace(" active", "");
+    tabcontent[i].className = tabcontent[i].className.replace("active", "animated", "animatedFadeInUp", "fadeInUp");
   }
   document.getElementById(cityName).classList.add("active", "animated", "animatedFadeInUp", "fadeInUp");
   // evt.currentTarget.className += " active";
