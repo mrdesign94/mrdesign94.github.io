@@ -349,3 +349,12 @@ h2.subhead-banner {
     padding: 35px;
     transition: all .4s;
 }
+
+.box-info-css {
+  background-color: #b7b6ae;
+  border-radius: 15px;
+}
+.box-info-css:hover {
+  border: 1px solid #FFC943;
+  transition: 0.3s;
+}
