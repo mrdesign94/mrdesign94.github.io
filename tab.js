@@ -1,4 +1,4 @@
-
+console.log("Hello world!");
 function openCity(evt, cityName) {
   var i, tabcontent, tablinks;
   tabcontent = document.getElementsByClassName("tabcontent");
@@ -12,21 +12,6 @@ function openCity(evt, cityName) {
   document.getElementById(cityName).style.display = "block";
   evt.currentTarget.className += " active";
 }
-
-function openCity(evt, cityName) {
-  var i, tabcontent, tablinks;
-  tabcontent = document.getElementsByClassName("tabcontent");
-  for (i = 0; i < tabcontent.length; i++) {
-    tabcontent[i].style.display = "none";
-  }
-  tabcontent = document.getElementsByClassName("tablinks");
-  for (i = 0; i < tablinks.length; i++) {
-    tabcontent[i].className = tabcontent[i].className.replace(" active", "");
-  }
-  document.getElementById(cityName).style.display = "block";
-  evt.currentTarget.className += " active";
-}
-  console.log("Hello world!");
 
 function xo(e, t) {
   const n = Object.create(null)
