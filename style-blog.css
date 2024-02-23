@@ -270,7 +270,7 @@ h2.subhead-banner {
 /*-----tab----*/
 .tab {
   overflow: hidden;
-  transition: color 0.15s ease-in;
+  transition: 0.15s ease-in;
 }
 
 /* Style the buttons inside the tab */
