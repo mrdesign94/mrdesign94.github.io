@@ -8028,56 +8028,56 @@ const Ri = [{
   meta: {},
   alias: [],
   redirect: void 0,
-  component: ()=>He(()=>import("./blog-details.a6e228fc.js"), ["./blog-details.a6e228fc.js", "./nuxt-link.ddc670a4.js", "./bsmall3.3479344e.js", "./vue.f36acd1f.ce6f80fa.js", "./HeaderTwo.2cd16568.js", "./Sidebar.480efe77.js", "./Footer.efdffa55.js"], import.meta.url).then(e=>e.default || e)
+  component: ()=>He(()=>import("./blog-details.a6e228fc.js"), ["./blog-details.a6e228fc.js", "./nuxt-link.ddc670a4.js", "./bsmall3.3479344e.js", "./vue.f36acd1f.ce6f80fa.js", "./HeaderTwo.2cd16568.js", "./Sidebar.480efe77.js", "./Footer.efdffa55.js"], import.meta.url).then(e=>e.default || e);
 }, {
   name: "blog",
   path: "/blog",
   meta: {},
   alias: [],
   redirect: void 0,
-  component: ()=>He(()=>import("./blog.7e7f2dca.js"), ["./blog.7e7f2dca.js", "./nuxt-link.ddc670a4.js", "./bsmall3.3479344e.js", "./vue.f36acd1f.ce6f80fa.js", "./HeaderTwo.2cd16568.js", "./Sidebar.480efe77.js", "./Footer.efdffa55.js"], import.meta.url).then(e=>e.default || e)
+  component: ()=>He(()=>import("./blog.7e7f2dca.js"), ["./blog.7e7f2dca.js", "./nuxt-link.ddc670a4.js", "./bsmall3.3479344e.js", "./vue.f36acd1f.ce6f80fa.js", "./HeaderTwo.2cd16568.js", "./Sidebar.480efe77.js", "./Footer.efdffa55.js"], import.meta.url).then(e=>e.default || e);
 }, {
   name: "contact",
   path: "/contact",
   meta: {},
   alias: [],
   redirect: void 0,
-  component: ()=>He(()=>import("./contact.7b78f221.js"), ["./contact.7b78f221.js", "./vue.f36acd1f.ce6f80fa.js", "./HeaderTwo.2cd16568.js", "./Sidebar.480efe77.js", "./nuxt-link.ddc670a4.js", "./Footer.efdffa55.js"], import.meta.url).then(e=>e.default || e)
+  component: ()=>He(()=>import("./contact.7b78f221.js"), ["./contact.7b78f221.js", "./vue.f36acd1f.ce6f80fa.js", "./HeaderTwo.2cd16568.js", "./Sidebar.480efe77.js", "./nuxt-link.ddc670a4.js", "./Footer.efdffa55.js"], import.meta.url).then(e=>e.default || e);
 }, {
   name: "index",
   path: "/",
   meta: {},
   alias: [],
   redirect: void 0,
-  component: ()=>He(()=>import("./index.8d136b36.js"), ["./index.8d136b36.js", "./nuxt-link.ddc670a4.js", "./pro4.4a137c9e.js", "./pro6.13946a81.js", "./project-need.4d508113.js", "./Process.bf44b680.js", "./vue.f36acd1f.ce6f80fa.js", "./Header.fe7c0dce.js", "./Sidebar.480efe77.js", "./useVideoModal.bb1ea71a.js", "./Footer.efdffa55.js", "./index.27f8767b.css"], import.meta.url).then(e=>e.default || e)
+  component: ()=>He(()=>import("./index.8d136b36.js"), ["./index.8d136b36.js", "./nuxt-link.ddc670a4.js", "./pro4.4a137c9e.js", "./pro6.13946a81.js", "./project-need.4d508113.js", "./Process.bf44b680.js", "./vue.f36acd1f.ce6f80fa.js", "./Header.fe7c0dce.js", "./Sidebar.480efe77.js", "./useVideoModal.bb1ea71a.js", "./Footer.efdffa55.js", "./index.27f8767b.css"], import.meta.url).then(e=>e.default || e);
 }, {
   name: "portfolio-details",
   path: "/portfolio-details",
   meta: {},
   alias: [],
   redirect: void 0,
-  component: ()=>He(()=>import("./portfolio-details.c1d2e5de.js"), ["./portfolio-details.c1d2e5de.js", "./nuxt-link.ddc670a4.js", "./pro4.4a137c9e.js", "./vue.f36acd1f.ce6f80fa.js", "./HeaderTwo.2cd16568.js", "./Sidebar.480efe77.js", "./Footer.efdffa55.js"], import.meta.url).then(e=>e.default || e)
+  component: ()=>He(()=>import("./portfolio-details.c1d2e5de.js"), ["./portfolio-details.c1d2e5de.js", "./nuxt-link.ddc670a4.js", "./pro4.4a137c9e.js", "./vue.f36acd1f.ce6f80fa.js", "./HeaderTwo.2cd16568.js", "./Sidebar.480efe77.js", "./Footer.efdffa55.js"], import.meta.url).then(e=>e.default || e);
 }, {
   name: "portfolio",
   path: "/portfolio",
   meta: {},
   alias: [],
   redirect: void 0,
-  component: ()=>He(()=>import("./portfolio.fa1a80c0.js"), ["./portfolio.fa1a80c0.js", "./nuxt-link.ddc670a4.js", "./pro4.4a137c9e.js", "./pro6.13946a81.js", "./Process.bf44b680.js", "./vue.f36acd1f.ce6f80fa.js", "./HeaderTwo.2cd16568.js", "./Sidebar.480efe77.js", "./Footer.efdffa55.js"], import.meta.url).then(e=>e.default || e)
+  component: ()=>He(()=>import("./portfolio.fa1a80c0.js"), ["./portfolio.fa1a80c0.js", "./nuxt-link.ddc670a4.js", "./pro4.4a137c9e.js", "./pro6.13946a81.js", "./Process.bf44b680.js", "./vue.f36acd1f.ce6f80fa.js", "./HeaderTwo.2cd16568.js", "./Sidebar.480efe77.js", "./Footer.efdffa55.js"], import.meta.url).then(e=>e.default || e);
 }, {
   name: "service-details",
   path: "/service-details",
   meta: {},
   alias: [],
   redirect: void 0,
-  component: ()=>He(()=>import("./service-details.a550d052.js"), ["./service-details.a550d052.js", "./useVideoModal.bb1ea71a.js", "./Process.bf44b680.js", "./vue.f36acd1f.ce6f80fa.js", "./HeaderTwo.2cd16568.js", "./Sidebar.480efe77.js", "./nuxt-link.ddc670a4.js", "./Footer.efdffa55.js"], import.meta.url).then(e=>e.default || e)
+  component: ()=>He(()=>import("./service-details.a550d052.js"), ["./service-details.a550d052.js", "./useVideoModal.bb1ea71a.js", "./Process.bf44b680.js", "./vue.f36acd1f.ce6f80fa.js", "./HeaderTwo.2cd16568.js", "./Sidebar.480efe77.js", "./nuxt-link.ddc670a4.js", "./Footer.efdffa55.js"], import.meta.url).then(e=>e.default || e);
 }, {
   name: "service",
   path: "/service",
   meta: {},
   alias: [],
   redirect: void 0,
-  component: ()=>He(()=>import("./service.230de5d6.js"), ["./service.230de5d6.js", "./nuxt-link.ddc670a4.js", "./project-need.4d508113.js", "./Process.bf44b680.js", "./vue.f36acd1f.ce6f80fa.js", "./HeaderTwo.2cd16568.js", "./Sidebar.480efe77.js", "./Footer.efdffa55.js"], import.meta.url).then(e=>e.default || e)
+  component: ()=>He(()=>import("./service.230de5d6.js"), ["./service.230de5d6.js", "./nuxt-link.ddc670a4.js", "./project-need.4d508113.js", "./Process.bf44b680.js", "./vue.f36acd1f.ce6f80fa.js", "./HeaderTwo.2cd16568.js", "./Sidebar.480efe77.js", "./Footer.efdffa55.js"], import.meta.url).then(e=>e.default || e);
 }]
   , Ip = (e,t,n)=>(t = t === !0 ? {} : t,
 {
