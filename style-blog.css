@@ -567,3 +567,12 @@ rotate: 45deg;
 background-color: #ffc943!important;
 transition: 0.3s;
 }
+
+h3.title-h3-css {
+  font-size: 28px;
+  font-weight: 800;
+}
+
+span.title-span-css {
+  color: #ffc943!important;
+}
