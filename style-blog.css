@@ -526,3 +526,9 @@ ul.social-css li {
 ul.social-css li a i {
   font-size:  25px!important;
 }
+ul.social-css li a {
+  color: #ccc!important;
+}
+ul.social-css li:hover a {
+  color: #c4161c!important;
+}
