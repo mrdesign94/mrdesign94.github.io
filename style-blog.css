@@ -563,6 +563,7 @@ font-size: 30px;
 color: #fff;
 rotate: 45deg;
 }
-.hover-shadow.cursor:hover a.common__icon {
+.modal-image-css:hover .content a.common__icon {
 background-color: #ffc943!important;
+transition: 0.3s;
 }
