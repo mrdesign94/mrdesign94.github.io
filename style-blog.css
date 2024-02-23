@@ -658,11 +658,13 @@ span.text-sub-title {
 }
 .about__contbox__item1 .box a {
 color: #7e7e7e;
+font-weight: 400;
 }
 .about__contbox__item1 .box a:hover {
 color: #c4161c;
 }
 
 .about__contbox__item1 .box span {
-font-size: 25px;
+  font-size: 21px;
+  font-weight: 800;
 }
