@@ -575,4 +575,6 @@ h3.title-h3-css {
 
 span.title-span-css {
   color: #ffc943!important;
+  font-weight: 400;
+  font-size: 20px;
 }
