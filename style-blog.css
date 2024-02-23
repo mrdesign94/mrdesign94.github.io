@@ -558,3 +558,8 @@ ul.social-css li:hover a {
 .d-flex {
   display: flex!important;
 }
+.content a.imgc i {
+font-size: 30px;
+color: #fff;
+rotate: 45deg;
+}
