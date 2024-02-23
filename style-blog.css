@@ -515,3 +515,14 @@ img.hover-shadow {
 .ds-500 {
   font-weight: 500;
 }
+
+ul.social-css {
+  padding-left: 0px!important;
+}
+
+ul.social-css li {
+  padding-right: 10px!important;
+}
+ul.social-css li a i {
+  font-size:  25px!important;
+}
