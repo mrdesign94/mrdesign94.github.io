@@ -183,6 +183,14 @@ h2.subhead-banner {
   border-radius: 20px;
   box-shadow: 0px 10px 25px -4px #ccc;
 }
+.pdt-0 {padding-top: 0px!important;} .pdt-1 {padding-top: 1px!important;} .pdt-2 {padding-top: 2px!important;} .pdt-3 {padding-top: 3px!important;} .pdt-4 {padding-top: 4px!important;} .pdt-5 {padding-top: 5px!important;} .pdt-6 {padding-top: 6px!important;} .pdt-7 {padding-top: 7px!important;} .pdt-8 {padding-top: 8px!important;} .pdt-9 {padding-top: 9px!important;}
+
+.pdb-0 {padding-bottom: 0px!important;} .pdb-1 {padding-bottom: 1px!important;} .pdb-2 {padding-bottom: 2px!important;} .pdb-3 {padding-bottom: 3px!important;} .pdb-4 {padding-bottom: 4px!important;} .pdb-5 {padding-bottom: 5px!important;} .pdb-6 {padding-bottom: 60px!important;} .pdb-7 {padding-bottom: 7px!important;} .pdb-8 {padding-bottom: 8px!important;} .pdb-9 {padding-bottom: 9px!important;}
+
+.pdl-0 {padding-left: 0px!important;} .pdl-1 {padding-left: 1px!important;} .pdl-2 {padding-left: 2px!important;} .pdbl-3 {padding-left: 3px!important;} .pdl-4 {padding-left: 4px!important;} .pdl-5 {padding-left: 5px!important;} .pdl-6 {padding-left: 6px!important;} .pdl-7 {padding-left: 7px!important;} .pdl-8 {padding-left: 8px!important;} .pdl-9 {padding-left: 9px!important;}
+
+.pdr-0 {padding-right: 0px!important;} .pdr-1 {padding-right: 1px!important;} .pdr-2 {padding-right: 2px!important;} .pdbr-3 {padding-right: 3px!important;} .pdr-4 {padding-right: 4x!important;} .pdr-5 {padding-right: 5px!important;} .pdr-6 {padding-right: 6px!important;} .pdr-7 {padding-right: 7px!important;} .pdr-8 {padding-right: 8px!important;} .pdr-9{padding-right: 9px!important;}
+
 
 .pdt-10 {padding-top: 10px!important;} .pdt-20 {padding-top: 20px!important;} .pdt-30 {padding-top: 30px!important;} .pdt-40 {padding-top: 40px!important;} .pdt-50 {padding-top: 50px!important;} .pdt-60 {padding-top: 60px!important;} .pdt-70 {padding-top: 70px!important;} .pdt-80 {padding-top: 80px!important;} .pdt-90 {padding-top: 90px!important;}
 .pdt-100 {padding-top: 100px;}
@@ -198,6 +206,15 @@ h2.subhead-banner {
 
 
 .pd-10 {padding: 10px!important;} .pd-20 {padding: 20px!important;} .pd-30 {padding: 30px!important;} .pd-40 {padding: 40px!important;} .pd-50 {padding: 50px!important;} .pd-60 {padding: 60px!important;} .pd-70 {padding: 70px!important;} .pd-80 {padding: 80px!important;} .pd-90 {padding: 90px!important;} .pd-100 {padding: 100px!important;}
+
+
+.mgt-0 {margin-top: 0px!important;} .mgt-1 {margin-top: 10px!important;} .mgt-2 {margin-top: 2px!important;} .mgt-3 {margin-top: 3px!important;} .mgt-4 {margin-top: 4px!important;} .mgt-5 {margin-top: 5px!important;} .mgt-6 {margin-top: 6px!important;} .mgt-7 {margin-top: 7px!important;} .mgt-8 {margin-top: 8px!important;} .mgt-9 {margin-top: 9px!important;}
+
+.mgb-0 {margin-bottom: 0px!important;} .mgb-1 {margin-bottom: 1px!important;} .mgb-2 {margin-bottom: 2px!important;} .mgb-3 {margin-bottom: 3px!important;} .mgb-4 {margin-bottom: 4px!important;} .mgb-5 {margin-bottom: 5px!important;} .mgb-6 {margin-bottom: 60px!important;} .mgb-7 {margin-bottom: 7px!important;} .mgb-8 {margin-bottom: 8px!important;} .mgb-9 {margin-bottom: 9px!important;}
+
+.mgl-0 {margin-left: 0px!important;} .mgl-1 {margin-left: 1px!important;} .mgl-2 {margin-left: 2px!important;} .mgbl-3 {margin-left: 3px!important;} .mgl-4 {margin-left: 4px!important;} .mgl-5 {margin-left: 5px!important;} .mgl-6 {margin-left: 6px!important;} .mgl-7 {margin-left: 7px!important;} .mgl-8 {margin-left: 8px!important;} .mgl-9 {margin-left: 9px!important;}
+
+.mgr-0 {margin-right: 0px!important;} .mgr-1 {margin-right: 1px!important;} .mgr-2 {margin-right: 2px!important;} .mgbr-3 {margin-right: 3px!important;} .mgr-4 {margin-right: 4x!important;} .mgr-5 {margin-right: 5px!important;} .mgr-6 {margin-right: 6px!important;} .mgr-7 {margin-right: 7px!important;} .mgr-8 {margin-right: 8px!important;} .mgr-9 {margin-right: 9px!important;}
 
 .mgt-10 {margin-top: 10px!important;} .mgt-20 {margin-top: 20px!important;} .mgt-30 {margin-top: 30px!important;} .mgt-40 {margin-top: 40px!important;} .mgt-50 {margin-top: 50px!important;} .mgt-60 {margin-top: 60px!important;} .mgt-70 {margin-top: 70px!important;} .mgt-80 {margin-top: 80px!important;} .mgt-90 {margin-top: 90px!important;}
 .mgt-100 {margin-top: 100px;}
