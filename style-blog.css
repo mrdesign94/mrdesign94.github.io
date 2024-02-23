@@ -141,6 +141,7 @@ border: 1px solid #000;
 border-radius: 50px;
 color: #000;
 background: #ffc943;
+transition: 0.45s;
 }
 .btn-banner {
   margin-top: 2em;
