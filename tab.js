@@ -6,7 +6,7 @@ function openCity(evt, cityName) {
   var i, tabcontent, tablinks;
   tablinks = document.getElementsByClassName("tablinks");
   for (i = 0; i < tablinks.length; i++) {
-    tabcontent[i].style.display = "none";
+    tablinks[i].style.display = "none";
   }
   tabcontent = document.getElementsByClassName("tabcontent");
   for (i = 0; i < tabcontent.length; i++) {
