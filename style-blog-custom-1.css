@@ -151,3 +151,7 @@ background: #fff;
   .text-justify {
     text-align: justify;
   }
+  .box-colum-1 {
+    border-radius: 20px;
+    box-shadow: 0px 10px 25px -4px #ccc;
+  }
