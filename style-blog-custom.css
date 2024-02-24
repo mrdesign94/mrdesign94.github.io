@@ -91,14 +91,14 @@ background: #fff;
     text-align: justify;
       line-height: 1.4;
   }
-  /* .btn-banner a {
+  .btn-banner.btn {
   padding: 13px 40px;
   border: 1px solid #000;
   border-radius: 50px;
   color: #ffc943;
   background: #000;
-  } */
-  .btn-banner:hover a {
+  }
+  .btn-banner.btn:hover {
   padding: 13px 40px;
   border: 1px solid #000;
   border-radius: 50px;
