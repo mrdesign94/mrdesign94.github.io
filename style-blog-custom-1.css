@@ -408,23 +408,3 @@ background: #fff;
    width: 100%;
    max-width: 1320px;
  }
-
- /* The Close Button */
- .close {
-   color: white;
-   position: absolute;
-   top: 60px;
-   right: 300px;
-   font-size: 70px;
-   font-weight: 100;
-   z-index: 9;
- }
-
- .close:hover,
- .close:focus {
-   color: #999;
-   text-decoration: none;
-   cursor: pointer;
- }
-
- 
