@@ -1,13 +1,3 @@
-// <uniquifier>: Use a uniquifier for the class name
-// <weight>: Use a value from 100 to 900
-
-.hanken-grotesk-<uniquifier> {
-  font-family: "Hanken Grotesk", sans-serif;
-  font-optical-sizing: auto;
-  font-weight: <weight>;
-  font-style: normal;
-}
-
 /*---Main---*/
 html {
   scroll-behavior: smooth;
@@ -683,4 +673,15 @@ color: #c4161c;
 .about__contbox__item1 .box span {
   font-size: 21px;
   font-weight: 800;
+}
+
+
+// <uniquifier>: Use a uniquifier for the class name
+// <weight>: Use a value from 100 to 900
+
+.hanken-grotesk-<uniquifier> {
+  font-family: "Hanken Grotesk", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
 }
