@@ -1,4 +1,34 @@
 
+/*-----*/
+.about__onecontent .about__contactwrap {
+    display: flex;
+    flex-wrap: wrap;
+}
+.about__onecontent .about__contactwrap .abox {
+    background-color: #1d1d1d;
+    border: 1px solid #1d1d1d;
+    border-radius: 10px;
+    padding: 35px;
+    transition: all .4s;
+}
+
+.box-info-css {
+  background-color: #ccc;
+  border-radius: 15px;
+  border: 1px solid #ccc;
+}
+.box-info-css:hover {
+  border: 1px solid #000;
+  transition: 0.5s;
+  background: #cccccc94;
+}
+
+
+.myskill__item {
+  align-items: center;
+  display: flex;
+  gap: 24px;
+}
 
 
  /*-----Modal----*/
@@ -26,6 +56,9 @@
    width: 100%;
    max-width: 1320px;
  }
+
+
+
 
 .mySlides {
   display: none;
