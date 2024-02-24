@@ -473,7 +473,7 @@ background: #fff;
    top: 0;
  }
 
- img {
+ .mySlides img {
    margin-bottom: -0px;
    border-radius: 15px;
  }
