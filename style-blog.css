@@ -1,5 +1,5 @@
 /*---Main---*/
-html {
+/* html {
   scroll-behavior: smooth;
 }
 * {
@@ -18,7 +18,7 @@ html {
 .col-11 {width: 91.66%;}
 .col-12 {width: 100%;}
 
-/* .btn-call a {
+.btn-call a {
   padding: 8px 20px;
   border-radius: 50px;
   border: 1px solid #000;
@@ -69,7 +69,7 @@ background: #fff;
 .wrapper-masthead {
   margin-bottom: 0px!important;}
 /*----Home----*/
-div#banner-home {
+/* div#banner-home {
   width: 100%!important;
   max-width: 1920px!important;
   padding-left: 0px!important;
@@ -645,10 +645,10 @@ color: #c4161c;
 .about__contbox__item1 .box span {
   font-size: 21px;
   font-weight: 800;
-}
+} */
 
 
-// <uniquifier>: Use a uniquifier for the class name
+/* // <uniquifier>: Use a uniquifier for the class name
 // <weight>: Use a value from 100 to 900
 
 .hanken-grotesk-<uniquifier> {
@@ -656,4 +656,4 @@ color: #c4161c;
   font-optical-sizing: auto;
   font-weight: <weight>;
   font-style: normal;
-} */
+}  */
