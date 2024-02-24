@@ -485,20 +485,4 @@ background: #fff;
    color: black;
  }
 
- .demo {
-   opacity: 0.9;
- }
-
- .active,
- .demo:hover {
-   opacity: 1;
- }
-
- img.hover-shadow {
-   transition: 0.3s;
- }
-
- .hover-shadow:hover {
-   /* box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 15px 0 rgba(0, 0, 0, 0.1); */
-   border-radius: 0px;
- }
+ 
