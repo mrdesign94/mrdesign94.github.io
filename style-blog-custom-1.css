@@ -380,31 +380,3 @@ background: #fff;
    display: flex;
    gap: 24px;
  }
-
-
-
- /*-----Modal----*/
- /* The Modal (background) */
- .modal {
-   display: none;
-   position: fixed;
-   z-index: 1;
-   padding-top: 100px;
-   left: 0;
-   top: 0;
-   width: 100%;
-   height: 100%;
-   overflow: auto;
-   background-color: #000000b5; /* Fallback color */
-   transition: 0.3s;
- }
-
- /* Modal Content */
- .modal-content {
-   position: relative;
-   background-color: transparent;
-   margin: auto;
-   padding: 0;
-   width: 100%;
-   max-width: 1320px;
- }
