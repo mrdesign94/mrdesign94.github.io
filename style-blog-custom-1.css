@@ -315,3 +315,68 @@ background: #fff;
      padding-top: 24px;
      transition: all .4s;
  } */
+
+ .exri_item {
+   align-items: center;
+   border-top: 1px solid  #b7b6ae;
+   display: flex;
+   justify-content: space-between;
+   transition: all .4s
+ }
+
+ .exri_item:last-child {
+     border-bottom: 1px solid  #b7b6ae;
+ }
+
+ .exri_item:hover {
+     border-color: var(--hover);
+ }
+
+ @media (max-width: 500px) {
+ .exri_item .expri_cont h4 {
+   font-size:18px
+     }
+ }
+
+
+ .align-items-lg-start {
+   align-items: flex-start !important;
+ }
+ .align-items-center {
+   align-items: center !important;
+ }
+
+
+
+
+
+ /*-----*/
+ .about__onecontent .about__contactwrap {
+     display: flex;
+     flex-wrap: wrap;
+ }
+ .about__onecontent .about__contactwrap .abox {
+     background-color: #1d1d1d;
+     border: 1px solid #1d1d1d;
+     border-radius: 10px;
+     padding: 35px;
+     transition: all .4s;
+ }
+
+ .box-info-css {
+   background-color: #ccc;
+   border-radius: 15px;
+   border: 1px solid #ccc;
+ }
+ .box-info-css:hover {
+   border: 1px solid #000;
+   transition: 0.5s;
+   background: #cccccc94;
+ }
+
+
+ .myskill__item {
+   align-items: center;
+   display: flex;
+   gap: 24px;
+ }
