@@ -639,7 +639,7 @@ color: #c4161c;
 }
 
 
-// <uniquifier>: Use a uniquifier for the class name
+/* // <uniquifier>: Use a uniquifier for the class name
 // <weight>: Use a value from 100 to 900
 
 .hanken-grotesk-<uniquifier> {
@@ -647,4 +647,4 @@ color: #c4161c;
   font-optical-sizing: auto;
   font-weight: <weight>;
   font-style: normal;
-}
+} */
