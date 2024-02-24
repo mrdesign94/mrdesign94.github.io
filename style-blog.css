@@ -521,7 +521,7 @@ img.hover-shadow {
 }
 
 
-
+/* 
 .ds-900 {
   font-size: 45px;
   font-weight: 900;
@@ -636,10 +636,10 @@ color: #c4161c;
 .about__contbox__item1 .box span {
   font-size: 21px;
   font-weight: 800;
-}
+} */
 
 
-/* // <uniquifier>: Use a uniquifier for the class name
+// <uniquifier>: Use a uniquifier for the class name
 // <weight>: Use a value from 100 to 900
 
 .hanken-grotesk-<uniquifier> {
@@ -647,4 +647,4 @@ color: #c4161c;
   font-optical-sizing: auto;
   font-weight: <weight>;
   font-style: normal;
-} */
+}
