@@ -264,3 +264,54 @@ background: #fff;
  .tabcontent.active {
   display: block;
  }
+
+ /* Animation */
+
+ @keyframes fadeInUp {
+     from {
+         transform: translate3d(0,40px,0)
+     }
+
+     to {
+         transform: translate3d(0,0,0);
+         opacity: 1
+     }
+ }
+
+ @-webkit-keyframes fadeInUp {
+     from {
+         transform: translate3d(0,40px,0)
+     }
+
+     to {
+         transform: translate3d(0,0,0);
+         opacity: 1
+     }
+ }
+
+ .animated {
+     animation-duration: 1s;
+     animation-fill-mode: both;
+     -webkit-animation-duration: 1s;
+     -webkit-animation-fill-mode: both
+ }
+
+ .animatedFadeInUp {
+     opacity: 0
+ }
+
+ .fadeInUp {
+     opacity: 0;
+     animation-name: fadeInUp;
+     -webkit-animation-name: fadeInUp;
+ }
+ /*---content---*/
+ /* .exri_item {
+     align-items: center;
+     border-top: 1px solid var(--cusborder);
+     display: flex;
+     justify-content: space-between;
+     padding-bottom: 24px;
+     padding-top: 24px;
+     transition: all .4s;
+ } */
