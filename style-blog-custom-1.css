@@ -451,3 +451,45 @@ background: #fff;
    user-select: none;
    -webkit-user-select: none;
  }
+
+
+ .demo {
+   opacity: 0.9;
+ }
+
+ .active,
+ .demo:hover {
+   opacity: 1;
+ }
+
+ img.hover-shadow {
+   transition: 0.3s;
+ }
+
+ .hover-shadow:hover {
+   /* box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 15px 0 rgba(0, 0, 0, 0.1); */
+   border-radius: 0px;
+ }
+ .mySlides img {
+   margin-bottom: -0px;
+   border-radius: 15px;
+ }
+
+ .caption-container {
+   text-align: center;
+   /* background-color: black; */
+   padding: 2px 16px;
+   color: black;
+ }
+
+ /* Position the "next button" to the right */
+ .next {
+   right: 0;
+   border-radius: 3px 0 0 3px;
+ }
+
+ /* On hover, add a black background color with a little bit see-through */
+ .prev:hover,
+ .next:hover {
+   background-color: rgba(0, 0, 0, 0.8);
+ }
