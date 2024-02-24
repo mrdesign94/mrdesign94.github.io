@@ -472,17 +472,3 @@ background: #fff;
    position: absolute;
    top: 0;
  }
-
- .mySlides img {
-   margin-bottom: -0px;
-   border-radius: 15px;
- }
-
- .caption-container {
-   text-align: center;
-   /* background-color: black; */
-   padding: 2px 16px;
-   color: black;
- }
-
- 
