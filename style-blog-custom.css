@@ -659,3 +659,7 @@ background: #fff;
   background-size: cover;
   opacity: 0.6;
 }
+
+a {
+    text-decoration: none;
+}
