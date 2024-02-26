@@ -1,40 +1,3 @@
-console.log("Hello, World! tab-js");
-function openCity(evt, cityName) {
-  var i, tabcontent, tablinks;
-  tabcontent = document.getElementsByClassName("tabcontent");
-  for (i = 0; i < tabcontent.length; i++) {
-    tabcontent[i].style.display = "none";
-  }
-  tablinks = document.getElementsByClassName("tablinks");
-  for (i = 0; i < tablinks.length; i++) {
-    tablinks[i].className = tablinks[i].className.replace(" active", "");
-  }
-  document.getElementById(cityName).style.display = "block";
-  evt.currentTarget.className += " active";
-
-  tabcontent = document.getElementsByClassName("tabcontent");
-  for (i = 0; i < tabcontent.length; i++) {
-    tabcontent[i].className = tabcontent[i].className.replace(" active", "");
-  }
-  document.getElementById(cityName).classList.add("active", "animated", "animatedFadeInUp", "fadeInUp");
-  // evt.currentTarget.className += " active";
-}
-
-
-// Menu mobile
-function myFunction() {
-  var x = document.getElementById("myLinks");
-  if (x.style.display === "block") {
-    x.style.display = "none";
-  } else {
-    x.style.display = "block";
-  }
-}
-
-
-
-//Meunu
-
 
 $.fn.extend({
 
@@ -99,6 +62,48 @@ $('#menu-toggle').threeBarToggle({color: '#c4161c', width: 30, height: 25});
 $('#menu').accordionMenu();
 
 
+
+
+
+
+
+
+console.log("Hello, World! tab-js");
+function openCity(evt, cityName) {
+  var i, tabcontent, tablinks;
+  tabcontent = document.getElementsByClassName("tabcontent");
+  for (i = 0; i < tabcontent.length; i++) {
+    tabcontent[i].style.display = "none";
+  }
+  tablinks = document.getElementsByClassName("tablinks");
+  for (i = 0; i < tablinks.length; i++) {
+    tablinks[i].className = tablinks[i].className.replace(" active", "");
+  }
+  document.getElementById(cityName).style.display = "block";
+  evt.currentTarget.className += " active";
+
+  tabcontent = document.getElementsByClassName("tabcontent");
+  for (i = 0; i < tabcontent.length; i++) {
+    tabcontent[i].className = tabcontent[i].className.replace(" active", "");
+  }
+  document.getElementById(cityName).classList.add("active", "animated", "animatedFadeInUp", "fadeInUp");
+  // evt.currentTarget.className += " active";
+}
+
+
+// Menu mobile
+function myFunction() {
+  var x = document.getElementById("myLinks");
+  if (x.style.display === "block") {
+    x.style.display = "none";
+  } else {
+    x.style.display = "block";
+  }
+}
+
+
+
+//Meunu
 
 
 
