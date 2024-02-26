@@ -8,6 +8,6 @@ Hê Sờ Lô
 </h1>
 </div>
 <div>
-{{ content }}
+{{ page.title }}
 </div>
 </body>
