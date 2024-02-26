@@ -651,3 +651,10 @@ background: #fff;
 .modal-content col col-3 img {
 	border-radius: 9px;
 }
+
+
+.bg-image-css {
+  background-image: url("/asset/image/gain-bg.jpg");
+  background-repeat:no-repeat;
+  background-size: cover;  
+}
