@@ -316,7 +316,9 @@ This element should be always in the same position on screen, like fixed to top.
 }
 
 @media all and (min-width: 1030px) {
-
+    .mobile-menu {
+      display: none;
+    }
     /* -- desktop menu -- */
     .c-desktop-menu {
         display: flex;
