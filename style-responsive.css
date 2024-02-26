@@ -9,7 +9,7 @@
   .row, .colum {
     grid-gap: 10px;
   }
-}
+
 
 
 /*----Menu Mobile----*/
@@ -46,4 +46,6 @@
 .menu-css.active {
   background-color: #04AA6D;
   color: white;
+}
+
 }
