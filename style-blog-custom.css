@@ -656,5 +656,6 @@ background: #fff;
 .bg-image-css {
   background-image: url("/asset/image/gain-bg.jpg");
   background-repeat:no-repeat;
-  background-size: cover;  
+  background-size: cover;
+  opacity: 0.6;
 }
