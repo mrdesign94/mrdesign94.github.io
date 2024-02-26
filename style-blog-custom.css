@@ -639,6 +639,6 @@ background: #fff;
 .content a {
   text-decoration: none;
 }
-.modal {
+.modal .caption-container {
  background-color: transparent!important;
 }
