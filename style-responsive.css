@@ -8,7 +8,9 @@
     grid-gap: 10px;
   }
 
-
+.mobile-menu {
+  display: block!important;
+}
 
 /*----Menu Mobile----*/
 .menu-mobile-css {
