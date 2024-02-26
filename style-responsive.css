@@ -59,109 +59,442 @@
 
 
 /*-------test menu mobile----*/
-.menu__icon {
-	height: 32px;
-	width: 43px;
-  margin: 3%;
-	position: absolute;
-  top: 10px;
-  right: 3%;
-	display: inline-block;
-	vertical-align: middle;
-	z-index: 20;
-}
-
-.menu__icon span {
-	display: block;
-	background: blue;
-	width: 100%;
-	height: 4px;
-	margin-top: -2px;
-	position: absolute;
-	left: 0;
-	top: 50%;
-}
-
-.menu__icon:before,
-.menu__icon:after {
-	content: "";
-	display: block;
-	background: blue;
-	width: 100%;
-	height: 4px;
-	position: absolute;
-	left: 0;
-	transform-origin: center center;
-	transform: rotate(0deg);
-	transition: all 0.3s ease;
-}
-
-.menu__icon:before {
-  top: 2px;
-  margin-top: -2px;
-}
-
-.menu__icon:after {
-  bottom: 2px;
-  margin-bottom: -2px;
-}
-
-
-.menu_shown .menu__icon span {
-  background: transparent;
-}
-
-.menu_shown .menu__icon:before {
-	top: 50%;
-	transform: rotate(45deg);
-}
-
-.menu_shown .menu__icon:after {
-	bottom: 50%;
-	transform: rotate(-45deg);
-}
-
-
-.mobile.menu {
-	position: absolute;
-	top: 0;
-	left: 0;
-	width: 100%;
-	min-height: 100vh;
-	text-align: center;
-	padding-top: 112px;
-	background: #7eb4e2;
-	z-index: 10;
-	transition: all .4s ease-in-out;
-	transform: translateX(-100%);
-}
-
-.menu_shown .mobile.menu {
-	transform: translateX(0);
-}
-
-.mobile .menu__item {
-	display: block;
-	line-height: 2;
-	padding: 25px 0;
-}
-
-@media (min-width: map-get($viewport_size, l)) {
-  nav {
-    padding: 3% 6%;
-    background: #7eb4e2;
-  }
-
-  .mobile {
-    display: none;
-  }
-
-  .desktop {
+.l-menu {
+    position: fixed;
+    width: 100%;
+    top: 0;
+    left: 0;
     display: flex;
-    flex-flow: row wrap;
-    justify-content: space-between;
-  }
+    justify-content: flex-end;
+    align-items: center;
+    align-content: center;
+    padding: 32px;
+    height: 96px;
+    box-sizing: border-box;
+    background-color: #4D248E;
 }
+
+/* ////// MOBILE MENU ////// */
+
+/* -- menu mobilne -- */
+.c-mobile-menu {
+    /*
+This element should be always in the same position on screen, like fixed to top. It opens and closes the menu, so user should have it always in the same place. In this case I used .l-menu element with position:fixed. This is required for mobile (so screen resolution under 1030px width), for desktop is irrelevant.
+*/
+    display: flex;
+    width: 24px;
+    height: 22px;
+}
+
+@media all and (min-width: 1030px) {
+    .c-mobile-menu {
+        display: none;
+    }
+}
+
+/* -- menu mobilne input -- */
+.e-mobile-menu-input {
+    /** reset default input styles **/
+    appearance: none;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    outline: none;
+    box-shadow: none;
+    border-radius: 0;
+    -webkit-font-smoothing: inherit;
+    -moz-osx-font-smoothing: inherit;
+    margin: 0;
+    width: 24px;
+    height: 22px;
+    cursor: pointer;
+    z-index: 40;
+    opacity: 0;
+}
+
+.e-mobile-menu-input:checked~.e-mobile-menu__wrapper {
+    top: 0;
+    max-width: 9999px;
+    max-height: 9999px;
+}
+
+@media all and (min-width: 512px) {
+
+    .e-mobile-menu-input:checked~.e-mobile-menu__wrapper {
+        left: 0;
+        max-width: 9999px;
+        opacity: 1;
+    }
+
+    .e-mobile-menu-input:checked~.e-mobile-menu__wrapper::after {
+        opacity: 1;
+        transition: opacity .3s .12s;
+    }
+}
+
+.e-mobile-menu-input:checked~.e-mobile-menu__hamburger>.e-mobile-menu__hamburger__block {
+    transition: top .2s, bottom .2s, opacity .2s .2s, transform .2s .2s;
+}
+
+.e-mobile-menu-input:checked~.e-mobile-menu__hamburger>.e-mobile-menu__hamburger__block:nth-child(1) {
+    top: 10px;
+    transform: rotate(+45deg);
+}
+
+.e-mobile-menu-input:checked~.e-mobile-menu__hamburger>.e-mobile-menu__hamburger__block:nth-child(2) {
+    opacity: 0;
+}
+
+.e-mobile-menu-input:checked~.e-mobile-menu__hamburger>.e-mobile-menu__hamburger__block:nth-child(3) {
+    bottom: 10px;
+    transform: rotate(-45deg);
+}
+
+/* -- mobile menu hamburger -- */
+.e-mobile-menu__hamburger {
+    width: 24px;
+    height: 22px;
+    position: relative;
+    margin-left: -24px;
+    z-index: 30;
+}
+
+/* -- mobile menu hamburger element -- */
+.e-mobile-menu__hamburger__block {
+    display: block;
+    width: 24px;
+    height: 2px;
+    background-color: white;
+    position: absolute;
+    transition: top .2s .1s, bottom .2s .1s, opacity .2s 0s, transform .2s 0s, background-color .2s 0s;
+    transform-origin: 50%;
+}
+
+.e-mobile-menu__hamburger__block:nth-child(1) {
+    top: 0;
+}
+
+.e-mobile-menu__hamburger__block:nth-child(2) {
+    top: 10px;
+}
+
+.e-mobile-menu__hamburger__block:nth-child(3) {
+    bottom: 0;
+}
+
+/* -- mobile menu container -- */
+.e-mobile-menu__wrapper {
+    width: 100vw;
+    height: 100vh;
+    background-color: #2E1654;
+    position: fixed;
+    top: -100vh;
+    left: 0;
+    max-width: 0;
+    max-height: 0;
+    transition: top .3s, left .3s, max-width .3s 0s, max-height .3s 0s;
+    padding: 16px 32px 32px 16px;
+    box-sizing: border-box;
+    overflow: hidden;
+}
+
+@media all and (min-width: 512px) {
+    .e-mobile-menu__wrapper {
+        width: 75vw;
+        left: -75vw;
+        top: 0;
+        max-width: 0;
+
+    }
+    /* -- mobile menu container space of right side -- */
+    .e-mobile-menu-input:checked~.e-mobile-menu__wrapper {
+        box-shadow: 200px 0px 5px 15px rgba(47, 19, 82, .6);
+    }
+}
+
+/* -- mobile menu content -- */
+.e-mobile-menu__content {
+    width: calc(100% + 48px);
+    height: 100%;
+    overflow-y: scroll;
+    padding: 16px 96px 0 0;
+    box-sizing: border-box;
+    color: white;
+}
+
+.e-mobile-menu__content::-webkit-scrollbar {
+    display: none;
+}
+
+@media all and (min-width: 512px) {
+
+    .e-mobile-menu__content {
+        padding-right: 32px;
+    }
+}
+
+/* -- mobile menu unordered list -- */
+.e-mobile-menu__main-menu>div>ul {
+    width: 100%;
+}
+
+/* -- mobile menu all links -- */
+.c-mobile-menu a {
+    display: flex;
+    /* style */
+    text-transform: uppercase;
+    color: white;
+    text-decoration: none;
+    padding: 8px;
+    font-size: 14px;
+    transition: background-color .3s;
+}
+
+/* -- mobile menu links when touch and hover -- */
+.c-mobile-menu a:active,
+.c-mobile-menu a:hover {
+    /* style */
+    background-color: #4D248E;
+}
+
+/* -- mobile menu 'before' marker of the 1st level menu -- */
+.e-mobile-menu__main-menu>div>ul>li>a::before {
+    content: '';
+    display: inline-block;
+    min-height: 18px;
+    max-height: 18px;
+    min-width: 18px;
+    max-width: 18px;
+    transition: transform 0.6s;
+    transform-style: preserve-3d;
+    margin-right: 8px;
+}
+
+/* -- mobile menu 'before' marker of the 1st level menu with submenu  -- */
+.e-mobile-menu__main-menu>div>ul>.menu-item-has-children>a::before {
+    /* style */
+    font-family: "Font Awesome 5 Free";
+    content: "\f0d7";
+    font-weight: 900;
+    font-size: 22px;
+    line-height: 18px;
+}
+
+/* -- mobile menu animation of 'before' marker of the 1st level menu with submenu -- */
+.c-mobile-menu .js-menu-active::before {
+    /* style */
+    transform: rotateX(180deg);
+}
+
+/* -- mobile menu active 1st level menu item with opened submenu -- */
+.c-mobile-menu .js-menu-active {
+    /* style */
+    background-color: #4D248E;
+}
+
+/* -- mobile menu submenu closed -- */
+.c-mobile-menu .sub-menu {
+    overflow: hidden;
+    max-height: 0;
+    /* style */
+    transition: max-height .1s;
+    margin-left: 48px;
+}
+
+/* -- mobile menu submenu opened -- */
+.c-mobile-menu .js-mobile-menu-open {
+    max-height: 999px;
+    height: auto;
+    /* style */
+    transition: max-height .9s;
+}
+
+/* ////// DESKTOP MENU ////// */
+
+/* -- desktop menu -- */
+.c-desktop-menu {
+    display: none;
+}
+
+@media all and (min-width: 1030px) {
+
+    /* -- desktop menu -- */
+    .c-desktop-menu {
+        display: flex;
+        width: 100%;
+    }
+
+    /* -- desktop menu unordered menu list -- */
+    .c-desktop-menu>div>ul {
+        width: 100%;
+        display: flex;
+        margin: 0;
+        padding: 0;
+    }
+
+    .c-desktop-menu>div>ul li {
+        position: relative;
+    }
+
+    /* -- desktop menu links -- */
+    .c-desktop-menu a {
+        /* style */
+        padding: 8px 16px;
+        font-size: 12px;
+        font-weight: 600;
+        text-decoration: none;
+        text-transform: uppercase;
+        color: white;
+        display: flex;
+        align-items: center;
+        transition: background-color .6s;
+        z-index: 10;
+    }
+
+    .c-desktop-menu a:hover {
+        /* style */
+        transition: background-color .3s;
+        transition-timing-function: cubic-bezier(0.1, 0.5, 0.8, 0.5);
+    }
+
+    /* -- desktop menu current page menu item -- */
+    .c-desktop-menu .current-menu-item>a,
+    /* -- desktop menu current page parent menu item -- */
+    .c-desktop-menu .current-menu-parent>a {
+        /* style */
+        background-color: #2E1654;
+        color: white;
+    }
+
+    .c-desktop-menu .current-menu-item>a::after {
+        /* style */
+        color: white;
+    }
+
+    .c-desktop-menu>div>ul>li>a::before {
+        content: '';
+        position: absolute;
+        left: 0;
+        bottom: 0;
+        height: 1px;
+        width: 100%;
+        max-width: 0;
+        z-index: 5;
+        /* style */
+        background-color: white;
+        transition: max-width .3s;
+    }
+
+    .c-desktop-menu a:hover::before {
+        max-width: 999px;
+        /* style */
+        transition: max-width .9s;
+    }
+
+    /* -- desktop menu submenu closed -- */
+    .c-desktop-menu .sub-menu {
+        overflow: hidden;
+        position: absolute;
+        opacity: 0;
+        visibility: hidden;
+        /* style */
+        width: 256px;
+        background-color: #865BE8;
+        margin-top: 16px;
+        transform: translateY(-16px);
+        transition: visibility 1s, transform .3s, opacity .3s;
+    }
+
+    .c-desktop-menu .menu-item-has-children:nth-last-of-type(1) .sub-menu {
+        right: 0;
+    }
+
+    .c-desktop-menu .menu-item-has-children:nth-last-of-type(2) .sub-menu {
+        right: 0;
+    }
+
+    /* -- desktop menu wide submenu -- */
+    .c-desktop-menu .wide {
+        display: flex;
+        flex-wrap: wrap;
+        /* style */
+        width: 420px;
+    }
+
+    .c-desktop-menu .wide li {
+        width: 50%;
+        /* style */
+        border-bottom: 1px solid white;
+    }
+
+    /* -- desktop menu submenu opened -- */
+    .c-desktop-menu .js-menu-open {
+        visibility: visible;
+        opacity: 1;
+        transform: translateY(+4px);
+    }
+
+    .c-desktop-menu .sub-menu li {
+        border-bottom: 1px solid white;
+    }
+
+    /* -- desktop menu submenu links -- */
+    .c-desktop-menu .sub-menu a {
+        /* style */
+        color: white;
+    }
+
+    .c-desktop-menu .sub-menu a:hover {
+        /* style */
+        background-color: #543992;
+    }
+
+    /* -- desktop menu 'after' marker of the 1st level menu with submenu-- */
+    .c-desktop-menu div>ul>.menu-item-has-children>a::after {
+        display: inline-block;
+        margin-left: 8px;
+        height: 4px;
+        /* style */
+        font-family: "Font Awesome 5 Free";
+        content: "\f0d7";
+        font-weight: 900;
+        transition: transform .3s;
+        font-size: 12px;
+        line-height: 4px;
+    }
+
+    /* -- desktop menu animation of 'before' marker of the 1st level menu with submenu -- */
+    .c-desktop-menu .js-menu-active::after {
+        transform: rotateX(180deg);
+    }
+
+    /* -- desktop menu js -- */
+    .c-desktop-menu .js-menu-active,
+    .c-desktop-menu .current-menu-item>.js-menu-active,
+    .c-desktop-menu .current-menu-item>.js-menu-active::after {
+        /* style */
+        background-color: #2E1654;
+        color: white;
+    }
+
+    .c-desktop-menu .js-menu-active {
+        border-bottom: 1px solid white;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 }
