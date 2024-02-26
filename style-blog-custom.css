@@ -439,6 +439,7 @@ background: #fff;
 
  img.hover-shadow {
    transition: 0.3s;
+   border-radius: 20px;
  }
 
  .hover-shadow:hover {
