@@ -646,6 +646,7 @@ background: #fff;
 
 .modal {
     --bs-modal-bg: #fff0!important;
+    --bs-modal-border-width: 0px!important;
 }
 .modal-content col col-3 img {
 	border-radius: 9px;
