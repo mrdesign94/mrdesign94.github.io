@@ -529,6 +529,7 @@ background: #fff;
  }
  .social-css-edit a {
    color: #7e7e7e!important;
+   text-decoration: none;
  }
  .social-css-edit a:hover {
    color: #c4161c!important;
