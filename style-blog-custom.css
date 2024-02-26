@@ -599,7 +599,7 @@ background: #fff;
      align-items: center;
      border-bottom: 1px solid #ccc;
      display: flex;
-     gap: 20px;
+     gap: 10px;
      transition: all .4s;
  }
  .about__contbox__item1:hover {
@@ -630,5 +630,9 @@ background: #fff;
  }
 
  nav .menu-sub ul.menu-css li a {
+  text-decoration: none;
+}
+
+.content a {
   text-decoration: none;
 }
