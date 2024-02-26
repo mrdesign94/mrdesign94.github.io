@@ -1,4 +1,5 @@
-$(document).ready(function () {
+$(document).ready(function ()
+ {
   //Menu button on click event
   $('.mobile-nav-button').on('click', function() {
     // Toggles a class on the menu button to transform the burger menu into a cross
