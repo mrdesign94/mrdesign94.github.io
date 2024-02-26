@@ -1,12 +1,90 @@
 <!DOCTYPE html>
 <html dir="ltr" lang="vi" prefix="og: https://ogp.me/ns#" style="" class=" js no-touch">
-    <div class="wrapper-footer">
+  <head>
+    <title>{% if page.title %}{{ page.title }} – {% endif %}{{ site.name }} – {{ site.description }}</title>
+    {% include meta.html %}
+    <!-- <link rel="shortcut icon" src="asset/icon/favico-des.png"/>
+    <link rel="apple-touch-icon-precomposed" href="asset/icon/favico-des.png"/> -->
+    <link rel="icon"  href="/asset/icon/favico-des.png" sizes="32x32" />
+    <link rel="icon"  href="/asset/icon/favico-des.png" sizes="192x192" />
+    <link rel="apple-touch-icon"  href="asset/icon/favico-des.png" />
+    <meta name="msapplication-TileImage" content=" href='asset/icon/favico-des.png'" />
+    <!--[if lt IE 9]>
+      <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css" />
+    <link rel="stylesheet" type="text/css" href="{{ site.baseurl }}/style.css" />
+    <link rel="stylesheet" type="text/css" href="{{ site.baseurl }}/style-blog-custom.css" />
+    <link rel="stylesheet" type="text/css" href="{{ site.baseurl }}/style-responsive.css" />
+    <link rel="alternate" type="application/rss+xml" title="{{ site.name }} - {{ site.description }}" href="{{ site.baseurl }}/feed.xml" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js" integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.min.js" integrity="sha384-0pUGZvbkm6XF6gxjEnlmuGrJXVbNuzT9qBBavbLwCsOGabYfZo0T0to5eqruptLy" crossorigin="anonymous"></script>
+    <script src="/tab.js" ></script>
+    <script src="/style.js" ></script>
+    <style>
+     @import url('https://fonts.googleapis.com/css2?family=Hanken+Grotesk:ital,wght@0,100..900;1,100..900&display=swap');
+    </style>
+    <!-- Created with Jekyll Now - http://github.com/barryclark/jekyll-now -->
+  </head>
+  <body>
+    <div class="wrapper-masthead">
       <div class="container">
-        <footer class="footer">
-          <span> Mr Design Hello bae</span>
-        </footer>
+        <header class="masthead clearfix d-flex align-items-center">
+          <a href="{{ site.baseurl }}/" class="site-avatar"><img src="/asset/icon/logo-graphics.png" alt="" /></a>
+          <!-- <div class="site-info">
+            <h1 class="site-name"><a href="{{ site.baseurl }}/">{{ site.name }}</a></h1>
+            <p class="site-description">{{ site.description }}</p>
+          </div> -->
+
+          <nav style="float: none!important;  margin-left: auto;  margin-right: auto;  display: table;   text-decoration: none;">
+            <div class="menu-sub" style="  display: inline-flex;  list-style-type: none;">
+              <ul class="menu-css ds-mgb-0" style="display: inline-flex;  list-style-type: none;">
+                <li>
+                  <a href="{{ site.baseurl }}">Trang chủ</a>
+                </li>
+                <li>
+                  <a href="{{ site.baseurl }}/about-me">Về chúng tôi</a>
+                </li>
+                <li>
+                  <a href="{{ site.baseurl }}/blog">Blog</a>
+                </li>
+                <li>
+                  <a href="{{ site.baseurl }}/portfolio">Portfolio</a>
+                </li>
+
+                <li>
+                  <a href="{{ site.baseurl }}/about">About</a>
+                </li>
+              </ul>
+              <!-- <ul class="menu-css" style="display: inline-flex;  list-style-type: none;">
+                <li class="btn-call">
+                  <a href="tel:+84981200694"><i class="fa fa-phone" aria-hidden="true"></i> Call me</a>
+                </li>
+              </ul> -->
+            </div>
+          </nav>
+          <nav>
+            <div class="menu-sub" style="  display: inline-flex;  list-style-type: none;">
+              <ul class="menu-css ds-mgb-0" style="display: inline-flex;  list-style-type: none;">
+                <li class="btn-call">
+                  <a href="tel:+84981200694"><i class="fa fa-phone" aria-hidden="true"></i> Call me</a>
+                </li>
+              </ul>
+            </div>
+          </nav>
+        </header>
       </div>
     </div>
 
-
+    <div class="wrapper-footer">
+      <div class="container">
+        <footer class="footer">
+          {% include svg-icons.html %}
+          <span>Đây là sản phẩm demo của Mr Design111</span>
+        </footer>
+      </div>
+    </div>
+  </body>
 </html>
