@@ -1,64 +1,91 @@
-$.fn.extend({
-
-  // Define the threeBarToggle function by extending the jQuery object
-  threeBarToggle: function(options){
-
-    // Set the default options
-    var defaults = {
-      color: 'black',
-      width: 30,
-      height: 25,
-      speed: 400,
-      animate: true
-    }
-    var options = $.extend(defaults, options);
-
-    return this.each(function(){
-
-      $(this).empty().css({'width': options.width, 'height': options.height, 'background': 'transparent'});
-      $(this).addClass('tb-menu-toggle');
-      $(this).prepend('<i></i><i></i><i></i>').on('click', function(event) {
-        event.preventDefault();
-        $(this).toggleClass('tb-active-toggle');
-        if (options.animate) { $(this).toggleClass('tb-animate-toggle'); }
-        $('.tb-mobile-menu').slideToggle(options.speed);
-      });
-      $(this).children().css('background', options.color);
+var estado = 0,
+    vw = $(window).width();
+$("#hamburger").click(function() {
+  var delay_time = 0;
+  $(this).toggleClass('open');
+  console.log(estado);
+  if (estado === 0) {
+    TweenMax.to($("#bg-menu-mobile"), 1, {
+      x:-vw,
+      ease: Expo.easeInOut
     });
-  },
 
-  // Define the accordionMenu() function that adds the sliding functionality
-  accordionMenu: function(options){
-
-    // Set the default options
-    var defaults = {
-      speed: 400
-    }
-    var options =  $.extend(defaults, options);
-
-    return this.each(function(){
-
-      $(this).addClass('tb-mobile-menu');
-      var menuItems = $(this).children('li');
-      menuItems.find('.sub-menu').parent().addClass('tb-parent');
-      $('.tb-parent ul').hide();
-      $('.tb-parent > a').on('click', function(event) {
-        event.stopPropagation();
-        event.preventDefault();
-        $(this).siblings().slideToggle(options.speed);
+    $("li").each(function() {
+      TweenMax.to($(this), 1.2, {
+        x:-vw,
+        scaleX: 1,
+        delay: delay_time,
+        ease: Expo.easeInOut
       });
-
+      delay_time += .04;
+    });
+    estado = 1;
+  } else {
+    estado = 0;
+    TweenMax.to($("#bg-menu-mobile"), 1.2, {
+      x:0,
+      ease: Expo.easeInOut
+    });
+    $("li").each(function() {
+      TweenMax.to($(this), 1, {
+        x:0,
+        /*
+        x:vw,
+        scaleX: 2.3,
+        */
+        delay: delay_time,
+        ease: Expo.easeInOut
+      });
+      delay_time += .02;
     });
   }
 });
+/*
+  if (estado === 0) {
+    $("#bg-menu-mobile").animate({
+      top: 0,
+      right: 0
+    }, {
+      duration: 520,
+      easing: "easeInOutStrong"
+    });
 
-// Convert any element into a three bar toggle
-// Optional arguments are 'speed' (number in ms, 'slow' or 'fast') and 'animation' (true or false) to disable the animation on the toggle
-$('#menu-toggle').threeBarToggle({color: 'green', width: 30, height: 25});
+    $("ul").delay(50).animate({
+      top:"50px",
+      left:"40px"
+    }, { duration:640, easing:"easeInOutStrong" });
 
-// Make any nested ul-based menu mobile
-// Optional arguments are 'speed' and 'accordion' (true or false) to disable the behavior of closing other sub
-$('#menu').accordionMenu();
+    $("li").each(function() {
+      TweenMax.to($(this), 0.7, {"left": "40px", opacity: 1, delay: delay_time, ease: Power2.easeInOut});
+      delay_time += 25;
+    });
+    estado = 1;
+  } else {
+    //
+    $("#bg-menu-mobile").delay(300).animate({
+      top: 0,
+      right: "-100%"
+    }, {
+      duration: 650,
+      easing: "easeInOutStrong"
+    });
+
+    $("li").each(function() {
+      $(this).delay(delay_time).animate({
+        "left": "100%",
+        opacity: 0
+      }, {
+        duration: 720,
+        easing: "easeInOutStrong"
+      });
+      delay_time += 20;
+    });
+    estado = 0;
+  }
+  console.log(estado);
+
+});
+*/
 
 
 
