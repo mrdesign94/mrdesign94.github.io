@@ -28,17 +28,17 @@
 
 /*-------test menu mobile----*/
 .l-menu {
-    position: fixed;
-    width: 100%;
-    top: 0;
-    left: 0;
-    display: flex;
-    justify-content: flex-end;
-    align-items: center;
-    align-content: center;
-    padding: 32px;
-    box-sizing: border-box;
-    background-color: transparent!important;
+  position: fixed;
+  width: 100%;
+  top: 0;
+  display: flex;
+  justify-content: flex-end;
+  align-content: center;
+  background-color: transparent !important;
+  align-items: center;
+  vertical-align: middle;
+  height: 60px;
+  right: 15px;
 }
 
 /* ////// MOBILE MENU ////// */
