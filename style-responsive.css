@@ -236,7 +236,7 @@ This element should be always in the same position on screen, like fixed to top.
     max-width: 18px;
     transition: transform 0.6s;
     transform-style: preserve-3d;
-    margin-right: 0px;
+    margin-right: 10px;
 }
 
 /* -- mobile menu 'before' marker of the 1st level menu with submenu  -- */
