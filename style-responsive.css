@@ -241,14 +241,14 @@ This element should be always in the same position on screen, like fixed to top.
 }
 
 /* -- mobile menu 'before' marker of the 1st level menu with submenu  -- */
-.e-mobile-menu__main-menu>div>ul>.menu-item-has-children>a::before {
-    /* style */
+/* .e-mobile-menu__main-menu>div>ul>.menu-item-has-children>a::before {
+
     font-family: "Font Awesome 5 Free";
     content: "\f0d7";
     font-weight: 900;
     font-size: 22px;
     line-height: 18px;
-}
+} */
 
 /* -- mobile menu animation of 'before' marker of the 1st level menu with submenu -- */
 .c-mobile-menu .js-menu-active::before {
