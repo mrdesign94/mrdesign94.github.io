@@ -1,4 +1,3 @@
-
 $.fn.extend({
 
   // Define the threeBarToggle function by extending the jQuery object
@@ -55,12 +54,11 @@ $.fn.extend({
 
 // Convert any element into a three bar toggle
 // Optional arguments are 'speed' (number in ms, 'slow' or 'fast') and 'animation' (true or false) to disable the animation on the toggle
-$('#menu-toggle').threeBarToggle({color: '#c4161c', width: 30, height: 25});
+$('#menu-toggle').threeBarToggle({color: 'green', width: 30, height: 25});
 
 // Make any nested ul-based menu mobile
 // Optional arguments are 'speed' and 'accordion' (true or false) to disable the behavior of closing other sub
 $('#menu').accordionMenu();
-
 
 
 
