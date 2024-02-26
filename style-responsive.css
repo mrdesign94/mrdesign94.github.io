@@ -13,40 +13,6 @@
 }
 
 /*----Menu Mobile----*/
-.menu-mobile-css {
-  overflow: hidden;
-  background-color: #333;
-  position: relative;
-}
-
-.menu-mobile-css #myLinks {
-  display: none;
-}
-
-.menu-mobile-css a {
-  color: white;
-  padding: 14px 16px;
-  text-decoration: none;
-  font-size: 17px;
-  display: block;
-}
-
-.menu-mobile-css a.icon {
-  background: black;
-  display: block;
-  position: absolute;
-  right: 0;
-  top: 0;
-}
-
-.menu-mobile-css a:hover {
-  background-color: #ddd;
-  color: black;
-}
-.menu-mobile-css.active {
-  background-color: #04AA6D;
-  color: white;
-}
 
 .hidden-mobile {
   display: none!important;
@@ -169,7 +135,7 @@ This element should be always in the same position on screen, like fixed to top.
     display: block;
     width: 24px;
     height: 2px;
-    background-color: white;
+    background-color: black;
     position: absolute;
     transition: top .2s .1s, bottom .2s .1s, opacity .2s 0s, transform .2s 0s, background-color .2s 0s;
     transform-origin: 50%;
