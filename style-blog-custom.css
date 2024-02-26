@@ -79,8 +79,8 @@ background: #fff;
     vertical-align: middle;
     width: 100%;
     display: block;
-    padding-left: 0px!important;
-    padding-right: 0px!important;
+    /* padding-left: 0px!important;
+    padding-right: 0px!important; */
     background: #ffc943;
   }
 
