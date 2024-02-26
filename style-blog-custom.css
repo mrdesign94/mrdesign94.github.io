@@ -644,5 +644,5 @@ background: #fff;
 }
 
 .modal {
-    --bs-modal-bg: #fff0;
+    --bs-modal-bg: #fff0!important;
 }
