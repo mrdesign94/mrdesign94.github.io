@@ -639,3 +639,6 @@ background: #fff;
 .content a {
   text-decoration: none;
 }
+.modal {
+ background-color: transparent!important;
+}
