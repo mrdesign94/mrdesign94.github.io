@@ -48,4 +48,9 @@
   color: white;
 }
 
+.hidden-mobile {
+  display: none;
+}
+
+
 }
