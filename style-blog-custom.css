@@ -559,7 +559,7 @@ background: #fff;
  .d-flex {
    display: flex!important;
  }
- .content a.imgc i {
+ .box-arrow i {
  font-size: 30px;
  color: #fff;
  rotate: 45deg;
