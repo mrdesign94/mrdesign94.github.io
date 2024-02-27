@@ -570,6 +570,12 @@ background: #fff;
    rotate:0deg!important;
    transition: 0.3s;
  }
+ .modal-image-css:hover .justify-content-between a.common__icon img {
+   fill:#000!important;
+   padding: 13px!important;
+   rotate:0deg!important;
+   transition: 0.3s;
+ }
  .box-arrow svg {
   fill:#fff;
   padding: 13px;
