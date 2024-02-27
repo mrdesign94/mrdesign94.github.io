@@ -548,7 +548,7 @@ background: #fff;
  .common__icon {
    align-items: center;
    background-color: #c5c5c5;
-   border-radius: 6px;
+   border-radius: 10px;
    display: flex;
    height: 60px;
    justify-content: center;
