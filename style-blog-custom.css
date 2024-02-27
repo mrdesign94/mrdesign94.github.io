@@ -564,6 +564,12 @@ background: #fff;
  color: #fff;
  rotate: 45deg;
  }
+ .modal-image-css:hover .content a.box-arrow svg {
+   fill:red;
+   padding: 10px;
+   rotate:-40deg;
+   transition: 0.3s;
+ }
  .box-arrow svg {
   fill:#fff;
   padding: 13px;
