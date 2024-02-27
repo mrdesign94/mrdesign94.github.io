@@ -1,12 +1,5 @@
 .mobile-menu {display: none!important;}
 @media only screen and (max-width: 690px) {
-  .container {
-    max-width: 690px;
-    width: 100%;
-  }
-  .row, .colum {
-    grid-gap: 10px;
-  }
 
 .mobile-menu {
   display: block!important;
