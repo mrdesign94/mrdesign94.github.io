@@ -123,9 +123,9 @@ background: #fff;
   transition: 0.3s;
   }
 
-  .container, .row, .colum {
+  /* .container, .row, .colum {
   grid-gap: 20px;
-  }
+  } */
 
   #main.container1 {
   padding-left: 0px!important;
