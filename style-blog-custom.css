@@ -564,7 +564,7 @@ background: #fff;
  color: #fff;
  rotate: 45deg;
  }
- .modal-image-css:hover .content a.box-arrow svg {
+ .modal-image-css:hover .justify-content-between a.box-arrow svg {
    fill:red!important;
    padding: 10px!important;
    rotate:-40deg!important;
@@ -575,7 +575,7 @@ background: #fff;
   padding: 13px;
   rotate:-45deg;
  }
- .modal-image-css:hover .content a.common__icon {
+ .modal-image-css:hover .justify-content-between a.common__icon {
  background-color: #ffc943!important;
  transition: 0.3s;
  }
