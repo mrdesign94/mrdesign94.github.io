@@ -566,6 +566,8 @@ background: #fff;
  }
  .box-arrow svg {
   fill:#fff;
+  padding: 13px;
+  rotate:-45deg;
  }
  .modal-image-css:hover .content a.common__icon {
  background-color: #ffc943!important;
