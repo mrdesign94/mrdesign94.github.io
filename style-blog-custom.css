@@ -594,11 +594,6 @@ background: #fff;
    -webkit-mask-repeat: no-repeat;
    mask-repeat: no-repeat;
  }
- .box-box-box {
-   width: 200px;
-   height: 200px;
-   background:pink;
- }
 
 
  .modal-image-css:hover .justify-content-between a.common__icon {
