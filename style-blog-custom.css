@@ -463,7 +463,7 @@ background: #fff;
 
  /* Position the "next button" to the right */
  .next {
-   right: 0;
+   right: 15px;
    border-radius: 9px 0 0 9px;
  }
 
@@ -478,10 +478,10 @@ background: #fff;
  .close {
    color: white;
    position: absolute;
-   top: 60px;
+   top: 75px;
    right: 410px;
    font-size: 4.5em!important;
-   font-weight: 100;
+   font-weight: 300!important;
    z-index: 9;
  }
 
