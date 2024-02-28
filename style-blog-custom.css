@@ -545,16 +545,7 @@ background: #fff;
  .justify-content-between {
    justify-content: space-between!important;
  }
- .common__icon {
-   align-items: center;
-   background-color: #c5c5c5;
-   border-radius: 10px;
-   display: flex;
-   height: 60px;
-   justify-content: center;
-   min-width: 60px;
-   transition: all .4s;
- }
+
 
  .d-flex {
    display: flex!important;
@@ -568,7 +559,16 @@ background: #fff;
 
 
 
-
+ .common__icon {
+   align-items: center;
+   background-color: #e3e3e3;
+   border-radius: 10px;
+   display: flex;
+   height: 60px;
+   justify-content: center;
+   min-width: 60px;
+   transition: all .4s;
+ }
  .modal-image-css:hover .justify-content-between a.common__icon svg {
    padding: 18px!important;
    rotate:0deg!important;
