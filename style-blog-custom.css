@@ -565,20 +565,17 @@ background: #fff;
  rotate: 45deg;
  }
  .modal-image-css:hover .justify-content-between a.common__icon svg {
-   fill:#000!important;
-   padding: 13px!important;
+   padding: 18px!important;
    rotate:0deg!important;
    transition: 0.3s;
  }
  .modal-image-css:hover .justify-content-between a.common__icon img {
-   fill:#000!important;
-   padding: 13px!important;
+   padding: 18px!important;
    rotate:0deg!important;
    transition: 0.3s;
  }
  .box-arrow svg {
-  fill:#fff;
-  padding: 13px;
+  padding: 18px;
   rotate:-45deg;
   transition: 0.3s;
  }
@@ -596,8 +593,8 @@ background: #fff;
    transition: 0.3s;
    background: #000;
  }
- .modal-image-css:hover .justify-content-between a.mask1  {
-   padding: 13px!important;
+ .modal-image-css:hover .justify-content-between a.common__icon .mask1  {
+   padding: 18px!important;
    rotate:0deg!important;
    transition: 0.3s;
  }
