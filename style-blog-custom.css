@@ -594,10 +594,10 @@ background: #fff;
    -webkit-mask-repeat: no-repeat;
    mask-repeat: no-repeat;
  }
- .box-arrow {
+ .box-box-box {
    width: 200px;
    height: 200px;
-   color: pink;
+   background:pink;
  }
 
 
