@@ -583,7 +583,6 @@ background: #fff;
   transition: 0.3s;
  }
  .box-arrow img {
-  fill:#fff;
   padding: 13px;
   rotate:-45deg;
   transition: 0.3s;
@@ -597,7 +596,7 @@ background: #fff;
    rotate:-45deg;
    transition: 0.3s;
  }
- .modal-image-css:hover .justify-content-between a.mask1 img {
+ .modal-image-css:hover .justify-content-between a.mask1 {
    padding: 13px!important;
    rotate:0deg!important;
    transition: 0.3s;
