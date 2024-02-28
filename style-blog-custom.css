@@ -578,6 +578,7 @@ background: #fff;
    padding: 18px!important;
    rotate:0deg!important;
    transition: 0.3s;
+   background: #fff;
  }
  .box-arrow svg {
   padding: 18px;
