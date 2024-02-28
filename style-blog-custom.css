@@ -564,6 +564,11 @@ background: #fff;
  color: #fff;
  rotate: 45deg;
  }
+
+
+
+
+ 
  .modal-image-css:hover .justify-content-between a.common__icon svg {
    padding: 18px!important;
    rotate:0deg!important;
@@ -591,7 +596,7 @@ background: #fff;
    mask-repeat: no-repeat;
    rotate:-45deg;
    transition: 0.3s;
-   background: #000;
+   background: pink;
  }
  /* .modal-image-css:hover .justify-content-between a.common__icon .mask1  {
    padding: 18px!important;
@@ -608,6 +613,9 @@ background: #fff;
  transition: 0.3s;
     rotate:-0deg;
  }
+
+
+
 
  h3.title-h3-css {
    font-size: 28px;
