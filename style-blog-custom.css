@@ -583,7 +583,7 @@ background: #fff;
   transition: 0.3s;
  }
  .box-arrow img {
-  padding: 13px;
+  padding: 18px;
   rotate:-45deg;
   transition: 0.3s;
  }
@@ -592,14 +592,17 @@ background: #fff;
    mask-image: url(/asset/image/arrow.svg);
    -webkit-mask-repeat: no-repeat;
    mask-repeat: no-repeat;
-   padding: 13px;
    rotate:-45deg;
    transition: 0.3s;
+   background: #000;
  }
- .modal-image-css:hover .justify-content-between a.mask1 {
+ .modal-image-css:hover .justify-content-between a.mask1  {
    padding: 13px!important;
    rotate:0deg!important;
    transition: 0.3s;
+ }
+ .modal-image-css:hover .justify-content-between a.mask1 img  {
+   background: yellow;
  }
 
  .modal-image-css:hover .justify-content-between a.common__icon {
