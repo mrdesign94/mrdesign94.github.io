@@ -578,7 +578,7 @@ background: #fff;
    padding: 18px!important;
    rotate:0deg!important;
    transition: 0.3s;
-   background: #fff;
+   background: white;
  }
  .box-arrow svg {
   padding: 18px;
@@ -597,9 +597,9 @@ background: #fff;
    mask-repeat: no-repeat;
    rotate:-45deg;
    transition: 0.3s;
-   background: pink;
+   background: black;
  }
- .modal-image-css:hover .justify-content-between a.common__icon .mask1  {
+ /* .modal-image-css:hover .justify-content-between a.common__icon .mask1  {
    rotate:0deg!important;
    transition: 0.3s;
    background: green!important
@@ -607,7 +607,7 @@ background: #fff;
    mask-image: url(/asset/image/arrow.svg);
    -webkit-mask-repeat: no-repeat;
    mask-repeat: no-repeat;
- }
+ } */
  /* .modal-image-css:hover .justify-content-between a.mask1 img  {
    background: yellow;
  } */
