@@ -582,6 +582,25 @@ background: #fff;
   rotate:-45deg;
   transition: 0.3s;
  }
+ .box-arrow img {
+  fill:#fff;
+  padding: 13px;
+  rotate:-45deg;
+  transition: 0.3s;
+ }
+ .mask1 {
+   -webkit-mask-image: url(/asset/image/arrow.svg);
+   mask-image: url(/asset/image/arrow.svg);
+   -webkit-mask-repeat: no-repeat;
+   mask-repeat: no-repeat;
+ }
+ .box-arrow {
+   width: 200px;
+   height: 200px;
+   color: pink;
+ }
+
+
  .modal-image-css:hover .justify-content-between a.common__icon {
  background-color: #ffc943!important;
  transition: 0.3s;
