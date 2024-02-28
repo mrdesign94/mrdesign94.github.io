@@ -601,7 +601,11 @@ background: #fff;
  .modal-image-css:hover .justify-content-between a.common__icon .mask1  {
    rotate:0deg!important;
    transition: 0.3s;
-   background: green!important;
+   background: green!important
+   -webkit-mask-image: url(/asset/image/arrow.svg);
+   mask-image: url(/asset/image/arrow.svg);
+   -webkit-mask-repeat: no-repeat;
+   mask-repeat: no-repeat;
  }
  /* .modal-image-css:hover .justify-content-between a.mask1 img  {
    background: yellow;
