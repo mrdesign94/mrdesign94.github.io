@@ -604,8 +604,9 @@ background: #fff;
 
  .modal-image-css:hover .justify-content-between a.common__icon {
  background-color: #ffc943!important;
- padding: 13px!important;
+ padding: 12px!important;
  transition: 0.3s;
+    rotate:-0deg;
  }
 
  h3.title-h3-css {
