@@ -601,7 +601,7 @@ background: #fff;
  .modal-image-css:hover .justify-content-between a.common__icon .mask1  {
    rotate:0deg!important;
    transition: 0.3s;
-   background: darkblue!important;
+   background: green!important;
  }
  .modal-image-css:hover .justify-content-between a.mask1 img  {
    background: yellow;
