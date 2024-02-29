@@ -748,3 +748,9 @@ rotate:-0deg;
 a {
     text-decoration: none!important;
 }
+
+
+
+button {
+  outline: none;
+}
