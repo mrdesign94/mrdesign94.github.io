@@ -115,22 +115,40 @@ This element should be always in the same position on screen, like fixed to top.
 }
 
 .e-mobile-menu-input:checked~.e-mobile-menu__hamburger>.e-mobile-menu__hamburger__block:nth-child(1) {
-    top: 10px;
+    /* top: 10px;
     transform: rotate(+45deg);
+    background-color: #ffc943; */
+    top: 15px;
+    transform: rotate(+90deg);
     background-color: #ffc943;
+    right: 10px;
+    position: fixed;
+    transition: 0.3s;
 }
 
 .e-mobile-menu-input:checked~.e-mobile-menu__hamburger>.e-mobile-menu__hamburger__block:nth-child(2) {
-    opacity: 0.9;
+    /* opacity: 0.9;
     transform: translateX(5px);
     background-color: #fff;
+    position: fixed; */
+    opacity: 1;
+    transform: translateX(5px);
+    background-color: #ffc943;
     position: fixed;
+    rotate: 90deg;
+    transition: 0.3s;
 }
 
 .e-mobile-menu-input:checked~.e-mobile-menu__hamburger>.e-mobile-menu__hamburger__block:nth-child(3) {
-    bottom: 10px;
+    /* bottom: 10px;
     transform: rotate(-45deg);
+    background-color: #ffc943; */
+    top: 15px;
+    transform: rotate(-90deg);
     background-color: #ffc943;
+    right: 30px;
+    position: fixed;
+    transition: 0.3s;
 }
 
 /* -- mobile menu hamburger -- */
