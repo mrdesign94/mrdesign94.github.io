@@ -15,6 +15,9 @@ body {
   box-sizing: border-box;
 }
 
+h1, h2, h3, h4,h5, p, span {
+    font-family: 'Hanken Grotesk', sans-serif!important;
+}
 .btn-call a {
   padding: 8px 20px;
   border-radius: 50px;
