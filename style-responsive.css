@@ -46,6 +46,7 @@
   vertical-align: middle;
   height: 52px;
   right: 20px;
+  z-index: 999;
 }
 
 /* ////// MOBILE MENU ////// */
