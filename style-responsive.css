@@ -272,7 +272,7 @@ This element should be always in the same position on screen, like fixed to top.
 }
 
 
-.e-mobile-menu__main-menu>div>ul>li>a::before {
+/* .e-mobile-menu__main-menu>div>ul>li>a::before {
     content: url('/asset/image/chevo.svg');
     display: inline-block;
     min-height: 18px;
@@ -282,7 +282,7 @@ This element should be always in the same position on screen, like fixed to top.
     transition: transform 0.6s;
     transform-style: preserve-3d;
     margin-right: 10px;
-}
+} */
 .c-mobile-menu a::before {
   -webkit-mask-image: url(/asset/image/chevo.svg);
   mask-image: url(/asset/image/chevo.svg);
