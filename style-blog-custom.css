@@ -521,10 +521,12 @@ background: #fff;
  .ds-900 {
    font-size: 45px;
    font-weight: 900;
+   font-family: "Hanken Grotesk", sans-serif !important;
  }
 
  .ds-500 {
    font-weight: 500;
+   font-family: "Hanken Grotesk", sans-serif !important;
  }
 
  ul.social-css {
