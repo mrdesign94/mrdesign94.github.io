@@ -3,7 +3,7 @@
 
 @media only sceen and (max-width: 1199.98px) {
 	.mobile-menu {
-    display: flex!important;
+    display: block!important;
   }
   .hidden-mobile {
     display: none!important;
@@ -60,7 +60,7 @@ This element should be always in the same position on screen, like fixed to top.
     height: 22px;
 }
 
-@media all and (min-width: 1030px) {
+@media all and (min-width: 1200px) {
 
   .mobile-menu {
     display: none;
@@ -292,7 +292,7 @@ This element should be always in the same position on screen, like fixed to top.
     display: none;
 }
 
-@media all and (min-width: 1030px) {
+@media all and (min-width: 1200px) {
     .mobile-menu {
       display: none;
     }
@@ -458,22 +458,4 @@ This element should be always in the same position on screen, like fixed to top.
     .c-desktop-menu .js-menu-active {
         border-bottom: 1px solid white;
     }
-}
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 }
