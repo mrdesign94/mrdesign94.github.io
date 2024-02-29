@@ -272,12 +272,12 @@ This element should be always in the same position on screen, like fixed to top.
 
 
 .e-mobile-menu__main-menu>div>ul>li>a::before {
-    content: '<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+    content: (<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
     	 viewBox="0 0 150 150" style="enable-background:new 0 0 150 150;" xml:space="preserve">
     <path d="M75,0C33.58,0,0,33.58,0,75c0,41.42,33.58,75,75,75s75-33.58,75-75C150,33.58,116.42,0,75,0z M99.85,80.33l-32.9,32.89
     	c-1.47,1.48-3.4,2.21-5.33,2.21s-3.86-0.73-5.33-2.21c-2.95-2.94-2.95-7.72,0-10.66L83.85,75L56.29,47.44
     	c-2.95-2.94-2.95-7.72,0-10.66c2.94-2.95,7.72-2.95,10.66,0l32.9,32.89c1.41,1.41,2.2,3.33,2.2,5.33S101.26,78.92,99.85,80.33z"/>
-    </svg>';
+    </svg>);
     display: inline-block;
     min-height: 18px;
     max-height: 18px;
