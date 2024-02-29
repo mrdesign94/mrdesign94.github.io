@@ -275,6 +275,10 @@ This element should be always in the same position on screen, like fixed to top.
 .c-mobile-menu a:hover {
   color:red!important;
 }
+.c-mobile-menu .e-mobile-menu__main-menu>div>ul>li>a::before:hover {
+  background: green!important;
+}
+
 /* .e-mobile-menu__main-menu>div>ul>li>a::before {
     content: url('/asset/image/chevo.svg');
     display: inline-block;
