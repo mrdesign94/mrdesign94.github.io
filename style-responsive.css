@@ -275,10 +275,6 @@ This element should be always in the same position on screen, like fixed to top.
 .c-mobile-menu a:hover {
   color:#ffc943!important;
 }
- .c-mobile-menu a:hover:last-child {
-   background-color: #c4161c;
-   color:#fff!important;
- }
 
 
 .c-mobile-menu .e-mobile-menu__main-menu>div>ul>li>a:hover::before {
@@ -304,7 +300,7 @@ This element should be always in the same position on screen, like fixed to top.
 }
 
 
-.btn-call-mobile {
+.btn-call-mobile a {
   width: 23%;
   height: 45px;
   padding: 5px 30px;
@@ -314,7 +310,7 @@ This element should be always in the same position on screen, like fixed to top.
  color:#c4161c!important;
 }
 
-.btn-call-mobile:hover {
+.btn-call-mobile:hover a {
   background-color: #ffc943;
   color:#000!important;
 }
