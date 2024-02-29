@@ -246,6 +246,7 @@ background: #fff;
  /* Create an active/current tablink class */
  .tab button.active {
    background-color: #ffc943;
+   outline: none!important;
  }
 
  /* Style the tab content */
