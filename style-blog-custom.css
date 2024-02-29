@@ -751,6 +751,6 @@ a {
 
 
 
-button {
-  outline: none;
+.tab button {
+  outline: none!important;
 }
