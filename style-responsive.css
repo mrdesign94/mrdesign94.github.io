@@ -122,7 +122,8 @@ This element should be always in the same position on screen, like fixed to top.
 
 .e-mobile-menu-input:checked~.e-mobile-menu__hamburger>.e-mobile-menu__hamburger__block:nth-child(2) {
     opacity: 0.5;
-    transform: translateX(-5px);
+    transform: translateX(5px);
+    background-color: #fff;
 }
 
 .e-mobile-menu-input:checked~.e-mobile-menu__hamburger>.e-mobile-menu__hamburger__block:nth-child(3) {
