@@ -18,6 +18,11 @@
   display: block!important;
 }
 
+.btn-call-mobile a {
+  width: 35%!important;
+
+}
+
 /*----Menu Mobile----*/
 
 .hidden-mobile {
