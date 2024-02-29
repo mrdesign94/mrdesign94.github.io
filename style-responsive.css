@@ -279,11 +279,6 @@ This element should be always in the same position on screen, like fixed to top.
    background-color: #c4161c;
    color:#fff!important;
  }
- .c-mobile-menu a:last-child {
-   background-color: #ffc943;
-   color:#000!important;
-   text-align: center!important;
- }
 
 
 .c-mobile-menu .e-mobile-menu__main-menu>div>ul>li>a:hover::before {
@@ -314,7 +309,14 @@ This element should be always in the same position on screen, like fixed to top.
   height: 45px;
   padding: 5px 30px;
   border-radius: 50px;
+ text-align: center!important;
+ background-color: #fff;
+ color:#c4161c!important;
+}
 
+.btn-call-mobile:hover {
+  background-color: #ffc943;
+  color:#000!important;
 }
 /* -- mobile menu 'before' marker of the 1st level menu with submenu  -- */
 /* .e-mobile-menu__main-menu>div>ul>.menu-item-has-children>a::before {
