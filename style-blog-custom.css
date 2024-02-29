@@ -757,3 +757,7 @@ a {
 .tab button {
   outline: none!important;
 }
+
+.grid-gap-20 {
+  grid-gap: 20px!important;
+}
