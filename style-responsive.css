@@ -195,7 +195,7 @@ This element should be always in the same position on screen, like fixed to top.
 .e-mobile-menu__wrapper {
     width: 100vw;
     height: 100vh;
-    background-color:#00000094;
+    background-color: #000000f2;
     position: fixed;
     top: -100vh;
     left: 0;
