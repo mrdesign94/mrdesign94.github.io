@@ -1,7 +1,7 @@
 .mobile-menu {display: none!important;}
 
 
-@media only sceen and (max-width: 767px) {
+@media only sceen and (max-width: 1199.98px) {
 	.mobile-menu {
     display: flex!important;
   }
