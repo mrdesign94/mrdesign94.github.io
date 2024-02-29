@@ -270,6 +270,12 @@ This element should be always in the same position on screen, like fixed to top.
     margin-right: 10px;
 }
 
+.c-mobile-menu a::before {
+  -webkit-mask-image: url(/asset/image/chevo.svg);
+  mask-image: url(/asset/image/chevo.svg);
+  background-color: #fff!important; 
+}
+
 /* -- mobile menu 'before' marker of the 1st level menu with submenu  -- */
 /* .e-mobile-menu__main-menu>div>ul>.menu-item-has-children>a::before {
 
