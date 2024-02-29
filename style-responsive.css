@@ -117,15 +117,18 @@ This element should be always in the same position on screen, like fixed to top.
 .e-mobile-menu-input:checked~.e-mobile-menu__hamburger>.e-mobile-menu__hamburger__block:nth-child(1) {
     top: 10px;
     transform: rotate(+45deg);
+    background-color: #ffc943;
 }
 
 .e-mobile-menu-input:checked~.e-mobile-menu__hamburger>.e-mobile-menu__hamburger__block:nth-child(2) {
-    opacity: 0;
+    opacity: 0.5;
+    transform: translateX(-5px);
 }
 
 .e-mobile-menu-input:checked~.e-mobile-menu__hamburger>.e-mobile-menu__hamburger__block:nth-child(3) {
     bottom: 10px;
     transform: rotate(-45deg);
+    background-color: #ffc943;
 }
 
 /* -- mobile menu hamburger -- */
@@ -186,7 +189,7 @@ This element should be always in the same position on screen, like fixed to top.
     }
     /* -- mobile menu container space of right side -- */
     .e-mobile-menu-input:checked~.e-mobile-menu__wrapper {
-        box-shadow: 200px 0px 5px 15px rgba(47, 19, 82, .6);
+        box-shadow: 500px 0px 5px 15px rgba(47, 19, 82, .6);
     }
 }
 
