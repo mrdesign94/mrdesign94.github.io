@@ -277,7 +277,6 @@ This element should be always in the same position on screen, like fixed to top.
 }
  .c-mobile-menu a:hover:last-child {
    background-color: transparent;
-   width: 20%!important;
  }
 
 
