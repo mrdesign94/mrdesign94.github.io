@@ -1,4 +1,13 @@
 .mobile-menu {display: none!important;}
+
+
+@media only sceen and (max-width: 767px) {
+	.mobile-menu {
+    display: block!important;
+  }
+}
+
+
 @media only screen and (max-width: 690px) {
 
 .mobile-menu {
