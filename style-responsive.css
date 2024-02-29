@@ -258,9 +258,9 @@ This element should be always in the same position on screen, like fixed to top.
 }
 
 /* -- mobile menu 'before' marker of the 1st level menu -- */
-
+/* content: url('/asset/image/chevo.svg'); */
 .e-mobile-menu__main-menu>div>ul>li>a::before {
-    content: url('/asset/image/chevo.svg');
+    content: " ";
     display: inline-block;
     min-height: 18px;
     max-height: 18px;
@@ -269,6 +269,7 @@ This element should be always in the same position on screen, like fixed to top.
     transition: transform 0.6s;
     transform-style: preserve-3d;
     margin-right: 10px;
+    background: #fff;
 }
 
 
