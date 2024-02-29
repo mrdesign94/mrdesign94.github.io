@@ -3,222 +3,11 @@
 
 @media only sceen and (max-width: 767px) {
 	.mobile-menu {
-    display: block!important;
+    display: flex!important;
   }
   .hidden-mobile {
     display: none!important;
   }
-  .l-menu {
-    position: fixed;
-    width: 100%;
-    top: 0;
-    display: flex;
-    justify-content: flex-end;
-    align-content: center;
-    background-color: transparent !important;
-    align-items: center;
-    vertical-align: middle;
-    height: 52px;
-    right: 20px;
-  }
-  /* -- mobile menu content -- */
-  .e-mobile-menu__content {
-      width: calc(100% + 48px);
-      height: 100%;
-      overflow-y: scroll;
-      padding: 16px 96px 0 0;
-      box-sizing: border-box;
-      color: white;
-  }
-
-  .e-mobile-menu__content::-webkit-scrollbar {
-      display: none;
-  }
-
-
-  /*-------test menu mobile----*/
-
-
-  /* ////// MOBILE MENU ////// */
-
-  /* -- menu mobilne -- */
-  .c-mobile-menu {
-      /*
-  This element should be always in the same position on screen, like fixed to top. It opens and closes the menu, so user should have it always in the same place. In this case I used .l-menu element with position:fixed. This is required for mobile (so screen resolution under 1030px width), for desktop is irrelevant.
-  */
-      display: flex;
-      width: 24px;
-      height: 22px;
-  }
-
-
-  /* -- menu mobilne input -- */
-  .e-mobile-menu-input {
-      /** reset default input styles **/
-      appearance: none;
-      -webkit-appearance: none;
-      -moz-appearance: none;
-      outline: none;
-      box-shadow: none;
-      border-radius: 0;
-      -webkit-font-smoothing: inherit;
-      -moz-osx-font-smoothing: inherit;
-      margin: 0;
-      width: 24px;
-      height: 22px;
-      cursor: pointer;
-      z-index: 40;
-      opacity: 0;
-  }
-
-  .e-mobile-menu-input:checked~.e-mobile-menu__hamburger>.e-mobile-menu__hamburger__block {
-      transition: top .2s, bottom .2s, opacity .2s .2s, transform .2s .2s;
-  }
-
-  .e-mobile-menu-input:checked~.e-mobile-menu__hamburger>.e-mobile-menu__hamburger__block:nth-child(1) {
-      top: 10px;
-      transform: rotate(+45deg);
-  }
-
-  .e-mobile-menu-input:checked~.e-mobile-menu__hamburger>.e-mobile-menu__hamburger__block:nth-child(2) {
-      opacity: 0;
-  }
-
-  .e-mobile-menu-input:checked~.e-mobile-menu__hamburger>.e-mobile-menu__hamburger__block:nth-child(3) {
-      bottom: 10px;
-      transform: rotate(-45deg);
-  }
-
-  /* -- mobile menu hamburger -- */
-  .e-mobile-menu__hamburger {
-      width: 24px;
-      height: 22px;
-      position: relative;
-      margin-left: -24px;
-      z-index: 30;
-  }
-
-  /* -- mobile menu hamburger element -- */
-  .e-mobile-menu__hamburger__block {
-      display: block;
-      width: 24px;
-      height: 2px;
-      background-color: black;
-      position: absolute;
-      transition: top .2s .1s, bottom .2s .1s, opacity .2s 0s, transform .2s 0s, background-color .2s 0s;
-      transform-origin: 50%;
-  }
-
-  .e-mobile-menu__hamburger__block:nth-child(1) {
-      top: 0;
-  }
-
-  .e-mobile-menu__hamburger__block:nth-child(2) {
-      top: 10px;
-  }
-
-  .e-mobile-menu__hamburger__block:nth-child(3) {
-      bottom: 0;
-  }
-
-  /* -- mobile menu container -- */
-  .e-mobile-menu__wrapper {
-      width: 100vw;
-      height: 100vh;
-      background-color: #2E1654;
-      position: fixed;
-      top: -100vh;
-      left: 0;
-      max-width: 0;
-      max-height: 0;
-      transition: top .3s, left .3s, max-width .3s 0s, max-height .3s 0s;
-      padding: 16px 32px 32px 16px;
-      box-sizing: border-box;
-      overflow: hidden;
-  }
-
-  /* -- mobile menu unordered list -- */
-  .e-mobile-menu__main-menu>div>ul {
-      width: 100%;
-  }
-
-  /* -- mobile menu all links -- */
-  .c-mobile-menu a {
-      display: flex;
-      /* style */
-      color: white;
-      text-decoration: none;
-      padding: 8px;
-      font-size: 14px;
-      transition: background-color .3s;
-  }
-
-  /* -- mobile menu links when touch and hover -- */
-  .c-mobile-menu a:active,
-  .c-mobile-menu a:hover {
-      /* style */
-      background-color: #4D248E;
-  }
-
-  /* -- mobile menu 'before' marker of the 1st level menu -- */
-  .e-mobile-menu__main-menu>div>ul>li>a::before {
-      content: '>';
-      display: inline-block;
-      min-height: 18px;
-      max-height: 18px;
-      min-width: 18px;
-      max-width: 18px;
-      transition: transform 0.6s;
-      transform-style: preserve-3d;
-      margin-right: 10px;
-  }
-
-  /* -- mobile menu 'before' marker of the 1st level menu with submenu  -- */
-  /* .e-mobile-menu__main-menu>div>ul>.menu-item-has-children>a::before {
-
-      font-family: "Font Awesome 5 Free";
-      content: "\f0d7";
-      font-weight: 900;
-      font-size: 22px;
-      line-height: 18px;
-  } */
-
-  /* -- mobile menu animation of 'before' marker of the 1st level menu with submenu -- */
-  .c-mobile-menu .js-menu-active::before {
-      /* style */
-      transform: rotateX(180deg);
-  }
-
-  /* -- mobile menu active 1st level menu item with opened submenu -- */
-  .c-mobile-menu .js-menu-active {
-      /* style */
-      background-color: #4D248E;
-  }
-
-  /* -- mobile menu submenu closed -- */
-  .c-mobile-menu .sub-menu {
-      overflow: hidden;
-      max-height: 0;
-      /* style */
-      transition: max-height .1s;
-      margin-left: 48px;
-  }
-
-  /* -- mobile menu submenu opened -- */
-  .c-mobile-menu .js-mobile-menu-open {
-      max-height: 999px;
-      height: auto;
-      /* style */
-      transition: max-height .9s;
-  }
-
-  /* ////// DESKTOP MENU ////// */
-
-  /* -- desktop menu -- */
-  .c-desktop-menu {
-      display: none;
-  }
-
 
 }
 
@@ -235,13 +24,40 @@
   display: none!important;
 }
 
+
+
+
+
+
+
+
+
+/*-------test menu mobile----*/
+.l-menu {
+  position: fixed;
+  width: 100%;
+  top: 0;
+  display: flex;
+  justify-content: flex-end;
+  align-content: center;
+  background-color: transparent !important;
+  align-items: center;
+  vertical-align: middle;
+  height: 52px;
+  right: 20px;
 }
 
+/* ////// MOBILE MENU ////// */
 
-
-
-
-
+/* -- menu mobilne -- */
+.c-mobile-menu {
+    /*
+This element should be always in the same position on screen, like fixed to top. It opens and closes the menu, so user should have it always in the same place. In this case I used .l-menu element with position:fixed. This is required for mobile (so screen resolution under 1030px width), for desktop is irrelevant.
+*/
+    display: flex;
+    width: 24px;
+    height: 22px;
+}
 
 @media all and (min-width: 1030px) {
 
@@ -251,6 +67,25 @@
     .c-mobile-menu {
         display: none;
     }
+}
+
+/* -- menu mobilne input -- */
+.e-mobile-menu-input {
+    /** reset default input styles **/
+    appearance: none;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    outline: none;
+    box-shadow: none;
+    border-radius: 0;
+    -webkit-font-smoothing: inherit;
+    -moz-osx-font-smoothing: inherit;
+    margin: 0;
+    width: 24px;
+    height: 22px;
+    cursor: pointer;
+    z-index: 40;
+    opacity: 0;
 }
 
 .e-mobile-menu-input:checked~.e-mobile-menu__wrapper {
@@ -273,7 +108,71 @@
     }
 }
 
+.e-mobile-menu-input:checked~.e-mobile-menu__hamburger>.e-mobile-menu__hamburger__block {
+    transition: top .2s, bottom .2s, opacity .2s .2s, transform .2s .2s;
+}
 
+.e-mobile-menu-input:checked~.e-mobile-menu__hamburger>.e-mobile-menu__hamburger__block:nth-child(1) {
+    top: 10px;
+    transform: rotate(+45deg);
+}
+
+.e-mobile-menu-input:checked~.e-mobile-menu__hamburger>.e-mobile-menu__hamburger__block:nth-child(2) {
+    opacity: 0;
+}
+
+.e-mobile-menu-input:checked~.e-mobile-menu__hamburger>.e-mobile-menu__hamburger__block:nth-child(3) {
+    bottom: 10px;
+    transform: rotate(-45deg);
+}
+
+/* -- mobile menu hamburger -- */
+.e-mobile-menu__hamburger {
+    width: 24px;
+    height: 22px;
+    position: relative;
+    margin-left: -24px;
+    z-index: 30;
+}
+
+/* -- mobile menu hamburger element -- */
+.e-mobile-menu__hamburger__block {
+    display: block;
+    width: 24px;
+    height: 2px;
+    background-color: black;
+    position: absolute;
+    transition: top .2s .1s, bottom .2s .1s, opacity .2s 0s, transform .2s 0s, background-color .2s 0s;
+    transform-origin: 50%;
+}
+
+.e-mobile-menu__hamburger__block:nth-child(1) {
+    top: 0;
+}
+
+.e-mobile-menu__hamburger__block:nth-child(2) {
+    top: 10px;
+}
+
+.e-mobile-menu__hamburger__block:nth-child(3) {
+    bottom: 0;
+}
+
+/* -- mobile menu container -- */
+.e-mobile-menu__wrapper {
+    width: 100vw;
+    height: 100vh;
+    background-color: #2E1654;
+    position: fixed;
+    top: -100vh;
+    left: 0;
+    max-width: 0;
+    max-height: 0;
+    transition: top .3s, left .3s, max-width .3s 0s, max-height .3s 0s;
+    padding: 16px 32px 32px 16px;
+    box-sizing: border-box;
+    overflow: hidden;
+}
 
 @media all and (min-width: 512px) {
     .e-mobile-menu__wrapper {
@@ -289,12 +188,107 @@
     }
 }
 
+/* -- mobile menu content -- */
+.e-mobile-menu__content {
+    width: calc(100% + 48px);
+    height: 100%;
+    overflow-y: scroll;
+    padding: 16px 96px 0 0;
+    box-sizing: border-box;
+    color: white;
+}
+
+.e-mobile-menu__content::-webkit-scrollbar {
+    display: none;
+}
 
 @media all and (min-width: 512px) {
 
     .e-mobile-menu__content {
         padding-right: 32px;
     }
+}
+
+/* -- mobile menu unordered list -- */
+.e-mobile-menu__main-menu>div>ul {
+    width: 100%;
+}
+
+/* -- mobile menu all links -- */
+.c-mobile-menu a {
+    display: flex;
+    /* style */
+    color: white;
+    text-decoration: none;
+    padding: 8px;
+    font-size: 14px;
+    transition: background-color .3s;
+}
+
+/* -- mobile menu links when touch and hover -- */
+.c-mobile-menu a:active,
+.c-mobile-menu a:hover {
+    /* style */
+    background-color: #4D248E;
+}
+
+/* -- mobile menu 'before' marker of the 1st level menu -- */
+.e-mobile-menu__main-menu>div>ul>li>a::before {
+    content: '>';
+    display: inline-block;
+    min-height: 18px;
+    max-height: 18px;
+    min-width: 18px;
+    max-width: 18px;
+    transition: transform 0.6s;
+    transform-style: preserve-3d;
+    margin-right: 10px;
+}
+
+/* -- mobile menu 'before' marker of the 1st level menu with submenu  -- */
+/* .e-mobile-menu__main-menu>div>ul>.menu-item-has-children>a::before {
+
+    font-family: "Font Awesome 5 Free";
+    content: "\f0d7";
+    font-weight: 900;
+    font-size: 22px;
+    line-height: 18px;
+} */
+
+/* -- mobile menu animation of 'before' marker of the 1st level menu with submenu -- */
+.c-mobile-menu .js-menu-active::before {
+    /* style */
+    transform: rotateX(180deg);
+}
+
+/* -- mobile menu active 1st level menu item with opened submenu -- */
+.c-mobile-menu .js-menu-active {
+    /* style */
+    background-color: #4D248E;
+}
+
+/* -- mobile menu submenu closed -- */
+.c-mobile-menu .sub-menu {
+    overflow: hidden;
+    max-height: 0;
+    /* style */
+    transition: max-height .1s;
+    margin-left: 48px;
+}
+
+/* -- mobile menu submenu opened -- */
+.c-mobile-menu .js-mobile-menu-open {
+    max-height: 999px;
+    height: auto;
+    /* style */
+    transition: max-height .9s;
+}
+
+/* ////// DESKTOP MENU ////// */
+
+/* -- desktop menu -- */
+.c-desktop-menu {
+    display: none;
 }
 
 @media all and (min-width: 1030px) {
@@ -463,4 +457,22 @@
     .c-desktop-menu .js-menu-active {
         border-bottom: 1px solid white;
     }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 }
