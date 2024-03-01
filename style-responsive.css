@@ -44,6 +44,7 @@
 .c-mobile-menu input[type=checkbox], .c-mobile-menu input[type=radio] {
   position: absolute;
   right: 5px;
+	top: 15px;
 }
 
 .e-mobile-menu__hamburger {
