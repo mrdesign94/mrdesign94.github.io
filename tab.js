@@ -45,7 +45,7 @@ function openCity(evt, cityName) {
 var currentUrl = window.location.href;
 
 // Remove slash ("/") from the current page's URL
-if (currentUrl.slice(-1) === "href") {
+if (currentUrl.slice(-1) === "") {
   currentUrl = currentUrl.slice(0, -1);
 }
 
@@ -57,7 +57,7 @@ menuLinks.forEach(function(link) {
   var linkUrl = link.href;
 
   // Remove slash ("/") from the current page's URL
-  if (linkUrl.slice(-1) === "href") {
+  if (linkUrl.slice(-1) === "") {
     linkUrl = linkUrl.slice(0, -1);
   }
 
