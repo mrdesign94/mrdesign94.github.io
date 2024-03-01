@@ -31,9 +31,9 @@ document.addEventListener("DOMContentLoaded", function() {
       link.classList.add('active-css');
     }
 
-    if (window.location.href === link.getAttribute("href")) {
-      link.classList.remove('active-css');
-    }
+    // if (window.location.href === link.getAttribute("href")) {
+    //   link.classList.remove('active-css');
+    // }
   });
 });
 
