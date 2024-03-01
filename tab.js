@@ -40,6 +40,7 @@ function openCity(evt, cityName) {
 
 
 
+
 // Get url current page
 var currentUrl = window.location.href;
 
