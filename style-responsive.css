@@ -19,9 +19,9 @@
 
 	.e-mobile-menu-input:checked~.e-mobile-menu__hamburger>.e-mobile-menu__hamburger__block:nth-child(1) {
 	    top: 10px!important;
+	    right: 140px!important;
 	    transform: rotate(+90deg);
 	    background-color: #ffc943;
-	    right: 140px!important;
 	    position: fixed;
 	    transition: 0.3s;
 
@@ -38,9 +38,9 @@
 	}
 	.e-mobile-menu-input:checked~.e-mobile-menu__hamburger>.e-mobile-menu__hamburger__block:nth-child(3) {
 	    top: 10px!important;
+		  right: 160px!important;
 	    transform: rotate(-90deg);
 	    background-color: #ffc943;
-	    right: 160px!important;
 	    position: fixed;
 	    transition: 0.3s;
 	}
