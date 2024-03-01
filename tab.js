@@ -1,3 +1,18 @@
+let navlist = document.querySelectorAll('.item_menu_css');
+
+for (let i = 0; i < navlist.length; i++) {
+	item_menu_css[i].addEventListener('click', function() {
+		for (let x = 0; x < item_menu_css.length; x++) {
+			if (item_menu_css[x] == this) {
+				item_menu_css[x].classList.add('active');
+			} else {
+				item_menu_css[x].classList.remove('active');
+			}
+		}
+	});
+}
+
+
 console.log("Hello, World! tab-js");
 function openCity(evt, cityName) {
   var i, tabcontent, tablinks;
@@ -68,19 +83,6 @@ function openCity(evt, cityName) {
 
 
 
-let navlist = document.querySelectorAll('.item_menu_css');
-
-for (let i = 0; i < navlist.length; i++) {
-	item_menu_css[i].addEventListener('click', function() {
-		for (let x = 0; x < item_menu_css.length; x++) {
-			if (item_menu_css[x] == this) {
-				item_menu_css[x].classList.add('active');
-			} else {
-				item_menu_css[x].classList.remove('active');
-			}
-		}
-	});
-}
 
 
 
