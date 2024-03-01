@@ -62,7 +62,7 @@ document.addEventListener("DOMContentLoaded", function() {
 		links.forEach(item => item.classList.remove("active-css")); // Xóa lớp active từ tất cả liên kết
 		const homeLink = document.querySelector('nav.menu a[href="index.html"]'); // Tìm liên kết trang chủ
 		homeLink.classList.add("active-css"); // Thêm lớp active vào liên kết trang chủ
-		sessionStorage.setItem("activeLink", "home"); // Lưu trạng thái "active" cho trang chủ
+		sessionStorage.setItem("activeLink", "index.html"); // Lưu trạng thái "active" cho trang chủ
 	});
 });
 
