@@ -22,22 +22,36 @@ function openCity(evt, cityName) {
 
 
 
+// document.addEventListener("DOMContentLoaded", function() {
+//   const links = document.querySelectorAll(".item_menu_css a");
+//
+//   links.forEach(link => {
+//     let slug = link.getAttribute("href").split("/").reverse()[0];
+//     if (window.location.href.indexOf(slug) > -0) {
+//       link.classList.add('active-css');
+//     }
+//
+//     if (window.location.href === link.getAttribute("href")) {
+//       link.classList.remove('active-css');
+//     }
+//   });
+// });
+
+
 document.addEventListener("DOMContentLoaded", function() {
   const links = document.querySelectorAll(".item_menu_css a");
 
   links.forEach(link => {
-    let slug = link.getAttribute("href").split("/").reverse()[0];
-    if (window.location.href.indexOf(slug) > -0) {
-      link.classList.add('active-css');
-    }
+    let slug = link.getAttribute("href").split("/").filter(Boolean).pop();
+    let currentURL = window.location.href;
 
-    // if (window.location.href === link.getAttribute("href")) {
-    //   link.classList.remove('active-css');
-    // }
+    if (currentURL.includes(slug)) {
+      link.classList.add('active-css');
+    } else {
+      link.classList.remove('active-css');
+    }
   });
 });
-
-
 
 
 
