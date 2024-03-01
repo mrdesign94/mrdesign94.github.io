@@ -227,8 +227,8 @@ This element should be always in the same position on screen, like fixed to top.
 /* -- mobile menu hamburger element -- */
 .e-mobile-menu__hamburger__block {
     display: block;
-    width: 30px;
-    height: 30px;
+    width: 24px;
+    height: 2px;
     background-color: black;
     position: absolute;
     transition: top .2s .1s, bottom .2s .1s, opacity .2s 0s, transform .2s 0s, background-color .2s 0s;
