@@ -216,8 +216,8 @@ This element should be always in the same position on screen, like fixed to top.
 
 /* -- mobile menu hamburger -- */
 .e-mobile-menu__hamburger {
-    width: 24px;
-    height: 22px;
+    width: 30px;
+    height: 30px;
     position: relative;
     margin-left: -24px;
     z-index: 30;
