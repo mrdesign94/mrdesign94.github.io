@@ -18,8 +18,8 @@
 	}
 
 	.e-mobile-menu-input:checked~.e-mobile-menu__hamburger>.e-mobile-menu__hamburger__block:nth-child(1) {
-	    top: 10px!important;
-	    right: 140px!important;
+	    top: 15px!important;
+	    right: 180px!important;
 	    transform: rotate(+90deg);
 	    background-color: #ffc943;
 	    position: fixed;
@@ -33,8 +33,8 @@
 	    position: fixed;
 	    rotate: 90deg;
 	    transition: 0.3s;
-			right: 150px!important;
-			top: 5px!important;
+			right: 170px!important;
+			/* top: 5px!important; */
 	}
 	.e-mobile-menu-input:checked~.e-mobile-menu__hamburger>.e-mobile-menu__hamburger__block:nth-child(3) {
 	    top: 10px!important;
