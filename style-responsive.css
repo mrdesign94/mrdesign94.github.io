@@ -46,6 +46,9 @@
   right: 5px;
 }
 
+.e-mobile-menu__hamburger {
+    position: absolute!important;
+}
 
 }
 
