@@ -30,8 +30,7 @@ document.addEventListener("DOMContentLoaded", function() {
     if (window.location.href.indexOf(slug) > -1) {
       link.classList.add('active-css');
     }
-    let slug = link.getAttribute("href").split("https://mrdesign94.github.io").reverse()[1];
-    if (window.location.href.indexOf(slug) > -1) {
+    if (window.location.href.indexOf(slug) > 1) {
       link.classList.remove('active-css');
     }
 
@@ -43,7 +42,7 @@ document.addEventListener("DOMContentLoaded", function() {
 
 
 
-// 
+//
 // // Get url current page
 // var currentUrl = window.location.href;
 //
