@@ -33,7 +33,6 @@
 .btn-call-mobile a {
   padding: 5px 20px!important;
 }
-}
 .item_menu_css .active-css {
 	color: #ffc943!important;
 }
@@ -42,6 +41,8 @@
 	mask-image: url(/asset/image/chevo.svg);
 	background-color: #ffc943!important;
 }
+}
+
 
 
 /*----Menu Mobile----*/
