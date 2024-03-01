@@ -28,9 +28,6 @@ document.addEventListener("DOMContentLoaded", function() {
   links.forEach(link => {
     let slug = link.getAttribute("href").split("/").reverse()[0];
     if (window.location.href.indexOf(slug) > -1) {
-      link.classList.add('active-css');
-    }
-    if (window.location.href.indexOf(slug) < 0) {
       link.classList.remove('active-css');
     }
 
