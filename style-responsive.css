@@ -4,10 +4,10 @@
 @media only screen and  (max-width: 1199.98px) {
 	.e-mobile-menu-input:checked~.e-mobile-menu__hamburger>.e-mobile-menu__hamburger__block:nth-child(1) {
 			top: 15px!important;
-			right: 180px!important;
+			right: 40px!important;
 			transform: rotate(+90deg);
 			background-color: #ffc943;
-			position: fixed;
+			position: absolute;
 			transition: 0.3s;
 
 	}
@@ -15,18 +15,18 @@
 			opacity: 1;
 			transform: translateX(5px);
 			background-color: #ffc943;
-			position: fixed;
+			position: absolute;
 			rotate: 90deg;
 			transition: 0.3s;
-			right: 170px!important;
+			right: 30px!important;
 			/* top: 5px!important; */
 	}
 	.e-mobile-menu-input:checked~.e-mobile-menu__hamburger>.e-mobile-menu__hamburger__block:nth-child(3) {
-			top: 10px!important;
-			right: 160px!important;
+			top: 15px!important;
+			right: 20px!important;
 			transform: rotate(-90deg);
 			background-color: #ffc943;
-			position: fixed;
+			position: absolute;
 			transition: 0.3s;
 	}
 	.mobile-menu {
