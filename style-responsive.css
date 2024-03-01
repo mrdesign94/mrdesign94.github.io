@@ -186,7 +186,7 @@ This element should be always in the same position on screen, like fixed to top.
     transform: rotate(+90deg);
     background-color: #ffc943;
     right: 10px;
-    position: fixed;
+    position: absolute;
     transition: 0.3s;
 }
 
@@ -198,7 +198,7 @@ This element should be always in the same position on screen, like fixed to top.
     opacity: 1;
     transform: translateX(5px);
     background-color: #ffc943;
-    position: fixed;
+    position: absolute;
     rotate: 90deg;
     transition: 0.3s;
 		right: 20px;
@@ -212,7 +212,7 @@ This element should be always in the same position on screen, like fixed to top.
     transform: rotate(-90deg);
     background-color: #ffc943;
     right: 30px;
-    position: fixed;
+    position: absolute;
     transition: 0.3s;
 }
 
