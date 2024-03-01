@@ -41,6 +41,12 @@
 	mask-image: url(/asset/image/chevo.svg);
 	background-color: #ffc943!important;
 }
+.c-mobile-menu input[type=checkbox], .c-mobile-menu input[type=radio] {
+  position: absolute;
+  right: 5px;
+}
+
+
 }
 
 
