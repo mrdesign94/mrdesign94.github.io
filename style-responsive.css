@@ -164,6 +164,7 @@ This element should be always in the same position on screen, like fixed to top.
     position: fixed;
     rotate: 90deg;
     transition: 0.3s;
+		right: 20px;
 }
 
 .e-mobile-menu-input:checked~.e-mobile-menu__hamburger>.e-mobile-menu__hamburger__block:nth-child(3) {
