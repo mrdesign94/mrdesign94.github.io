@@ -41,7 +41,7 @@ function openCity(evt, cityName) {
 
 
 document.addEventListener("DOMContentLoaded", function() {
-	const links = document.querySelectorAll(".item_menu_css a");
+	const links = document.querySelectorAll("li.item_menu_css a");
 	const logo = document.querySelector(".logo-css");
 	const activeLink = sessionStorage.getItem("activeLink");
 
@@ -60,7 +60,7 @@ document.addEventListener("DOMContentLoaded", function() {
 	logo.addEventListener("click", function(e) {
 		e.preventDefault(); // Ngăn chặn hành động mặc định của liên kết
 		links.forEach(item => item.classList.remove("active-css")); // Xóa lớp active từ tất cả liên kết
-		const homeLink = document.querySelector('.item_menu_css a[index.html]'); // Tìm liên kết trang chủ
+		const homeLink = document.querySelector('li.item_menu_css a[index.html]'); // Tìm liên kết trang chủ
 		homeLink.classList.add("active-css"); // Thêm lớp active vào liên kết trang chủ
 		sessionStorage.setItem("activeLink", "index.html"); // Lưu trạng thái "active" cho trang chủ
 	});
