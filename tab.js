@@ -38,21 +38,32 @@ function openCity(evt, cityName) {
 // });
 
 
+// document.addEventListener("DOMContentLoaded", function() {
+//   const links = document.querySelectorAll(".item_menu_css a");
+//
+//   links.forEach(link => {
+//     let slug = link.getAttribute("href").split("/").filter(Boolean).pop();
+//     let currentURL = window.location.href;
+//
+//     if (currentURL.includes(slug)) {
+//       link.classList.add('active-css');
+//     } else {
+//       link.classList.remove('active-css');
+//     }
+//   });
+// });
+
+
 document.addEventListener("DOMContentLoaded", function() {
-  const links = document.querySelectorAll(".item_menu_css a");
+  const links = document.querySelectorAll("ul.menu-css a");
 
   links.forEach(link => {
-    let slug = link.getAttribute("href").split("/").filter(Boolean).pop();
-    let currentURL = window.location.href;
-
-    if (currentURL.includes(slug)) {
-      link.classList.add('active-css');
-    } else {
-      link.classList.remove('active-css');
-    }
+    link.addEventListener("click", function() {
+      links.forEach(item => item.classList.remove("active-css"));
+      this.classList.add("active-css");
+    });
   });
 });
-
 
 
 
