@@ -21,50 +21,25 @@ function openCity(evt, cityName) {
 }
 
 
-//
-// document.addEventListener("DOMContentLoaded", function() {
-//   const links = document.querySelectorAll(".item_menu_css a");
-//
-//   links.forEach(link => {
-//     let slug = link.getAttribute("href").split("/").reverse()[0];
-//     if (window.location.href.indexOf(slug) > -1) {
-//       link.classList.add('active-css');
-//     }
-//
-//     if (window.location.href === link.getAttribute("href")) {
-//       link.classList.add('active-css');
-//     }
-//   });
-// });
 
+document.addEventListener("DOMContentLoaded", function() {
+  const links = document.querySelectorAll(".item_menu_css a");
 
+  links.forEach(link => {
+    let slug = link.getAttribute("href").split("/").reverse()[0];
+    if (window.location.href.indexOf(slug) > -1) {
+      link.classList.add('active-css');
+    }
 
-
-
-// Get url current page
-var currentUrl = window.location.href;
-
-// Remove slash ("/") from the current page's URL
-if (currentUrl.slice(-1) === "") {
-  currentUrl = currentUrl.slice(0, -1);
-}
-
-// Select all <a> tags in the vertical menu
-var menuLinks = document.querySelectorAll('.item_menu_css a');
-
-// Iterate through all the links in the menu and add class "active" if the URL of the link matches the URL of the current page
-menuLinks.forEach(function(link) {
-  var linkUrl = link.href;
-
-  // Remove slash ("/") from the current page's URL
-  if (linkUrl.slice(-1) === "") {
-    linkUrl = linkUrl.slice(0, -1);
-  }
-
-  if (linkUrl === currentUrl) {
-    link.classList.add('active-css');
-  }
+    if (window.location.href === link.getAttribute("href")) {
+      link.classList.remove('active-css');
+    }
+  });
 });
+
+
+
+
 
 
 // console.log("Hello, World! tab-js");
