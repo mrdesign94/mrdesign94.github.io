@@ -18,13 +18,10 @@
 	}
 
 	.e-mobile-menu-input:checked~.e-mobile-menu__hamburger>.e-mobile-menu__hamburger__block:nth-child(1) {
-	    /* top: 10px;
-	    transform: rotate(+45deg);
-	    background-color: #ffc943; */
-	    top: 10px;
+	    top: 10px!important;
 	    transform: rotate(+90deg);
 	    background-color: #ffc943;
-	    right: 140px;
+	    right: 140px!important;
 	    position: fixed;
 	    transition: 0.3s;
 
@@ -36,14 +33,14 @@
 	    position: fixed;
 	    rotate: 90deg;
 	    transition: 0.3s;
-			right: 150px;
-			top: 5px;
+			right: 150px!important;
+			top: 5px!important;
 	}
 	.e-mobile-menu-input:checked~.e-mobile-menu__hamburger>.e-mobile-menu__hamburger__block:nth-child(3) {
-	    top: 10px;
+	    top: 10px!important;
 	    transform: rotate(-90deg);
 	    background-color: #ffc943;
-	    right: 160px;
+	    right: 160px!important;
 	    position: fixed;
 	    transition: 0.3s;
 	}
