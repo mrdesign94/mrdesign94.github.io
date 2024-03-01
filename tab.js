@@ -84,13 +84,13 @@ document.addEventListener("DOMContentLoaded", function() {
   links.forEach(link => {
     link.addEventListener("click", function(e) {
       e.preventDefault(); // Ngăn chặn hành động mặc định của liên kết
-      links.forEach(item => item.classList.remove("active-css"));
-      this.classList.add("active-css");
+      links.forEach(item => item.classList.remove("active"));
+      this.classList.add("active");
       sessionStorage.setItem("activeLink", this.getAttribute("href")); // Lưu trạng thái "active"
     });
 
     if (link.getAttribute("href") === activeLink) {
-      link.classList.add("active-css");
+      link.classList.add("active");
     }
   });
 });
