@@ -29,7 +29,6 @@ document.addEventListener("DOMContentLoaded", function() {
     let slug = link.getAttribute("href").split("https://mrdesign94.github.io").reverse()[0];
     if (window.location.href.indexOf(slug) > -1) {
       link.classList.add('active-css');
-      link.classList.remove('active-css');
     }
     if (window.location.href.indexOf(slug) < -1) {
       link.classList.remove('active-css');
