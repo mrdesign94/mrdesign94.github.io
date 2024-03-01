@@ -1,6 +1,8 @@
 .mobile-menu {display: none!important;}
 
-
+.e-mobile-menu-input:checked~.e-mobile-menu__wrapper {
+		box-shadow: 500px 0px 5px 15px rgb(87 87 87 / 60%);
+}
 @media only screen and  (max-width: 1199.98px) {
 	.e-mobile-menu-input:checked~.e-mobile-menu__hamburger>.e-mobile-menu__hamburger__block:nth-child(1) {
 			top: 0px!important;
@@ -276,7 +278,7 @@ This element should be always in the same position on screen, like fixed to top.
     }
     /* -- mobile menu container space of right side -- */
     .e-mobile-menu-input:checked~.e-mobile-menu__wrapper {
-        box-shadow: 450px 0px 5px 15px rgb(87 87 87 / 60%);
+        box-shadow: 400px 0px 5px 15px rgb(87 87 87 / 60%);
     }
 }
 
