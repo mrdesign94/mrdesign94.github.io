@@ -8,10 +8,10 @@
   .hidden-mobile {
     display: none!important;
   }
-	.item_menu_css .active {
+	.item_menu_css .active-css {
 	  color: #ffc943!important;
 	}
-	.c-mobile-menu a.active::before {
+	.c-mobile-menu a.active-css::before {
 	  -webkit-mask-image: url(/asset/image/chevo.svg);
 	  mask-image: url(/asset/image/chevo.svg);
 	  background-color: #ffc943!important;
@@ -34,10 +34,10 @@
   padding: 5px 20px!important;
 }
 }
-.item_menu_css .active {
+.item_menu_css .active-css {
 	color: #ffc943!important;
 }
-.c-mobile-menu a.active::before {
+.c-mobile-menu a.active-css::before {
 	-webkit-mask-image: url(/asset/image/chevo.svg);
 	mask-image: url(/asset/image/chevo.svg);
 	background-color: #ffc943!important;

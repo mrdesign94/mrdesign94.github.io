@@ -27,12 +27,12 @@ document.addEventListener("DOMContentLoaded", function() {
 
   links.forEach(link => {
     if (link.getAttribute("href") === activeLink) {
-      link.classList.add("active");
+      link.classList.add("active-css");
     }
 
     link.addEventListener("click", function(e) {
-      links.forEach(item => item.classList.remove("active"));
-      this.classList.add("active");
+      links.forEach(item => item.classList.remove("active-css"));
+      this.classList.add("active-css");
       sessionStorage.setItem("activeLink", this.getAttribute("href"));
     });
   });
