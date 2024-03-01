@@ -1,7 +1,7 @@
 .mobile-menu {display: none!important;}
 
 
-@media only sceen and (max-width: 1199.98px) {
+@media only screen and  (max-width: 1199.98px) {
 	.e-mobile-menu-input:checked~.e-mobile-menu__hamburger>.e-mobile-menu__hamburger__block:nth-child(1) {
 			top: 15px!important;
 			right: 180px!important;
