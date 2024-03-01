@@ -307,6 +307,13 @@ This element should be always in the same position on screen, like fixed to top.
   background-color: #fff!important;
 }
 
+.c-mobile-menu a.active::before {
+  -webkit-mask-image: url(/asset/image/chevo.svg);
+  mask-image: url(/asset/image/chevo.svg);
+  background-color: #c4161c!important;
+}
+
+
 .btn-call-mobile {
   padding-left: 10px;
 }
