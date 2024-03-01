@@ -55,14 +55,26 @@ function openCity(evt, cityName) {
 
 
 document.addEventListener("DOMContentLoaded", function() {
-  const links = document.querySelectorAll(".item_menu_css  a");
+  const links = document.querySelectorAll(".item_menu_css a");
 
   links.forEach(link => {
-    link.addEventListener("click", function() {
+    link.addEventListener("click", function(e) {
+      e.preventDefault(); // Ngăn chặn hành động mặc định của liên kết
       links.forEach(item => item.classList.remove("active-css"));
-      link.classList.add("active-css");
+      this.classList.add("active-css");
+      window.sessionStorage.setItem("activeLink", this.getAttribute("href")); // Lưu trạng thái "active"
     });
   });
+
+  // Phục hồi trạng thái "active" khi tải lại trang
+  const activeLink = window.sessionStorage.getItem("activeLink");
+  if (activeLink) {
+    links.forEach(link => {
+      if (link.getAttribute("href") === activeLink) {
+        link.classList.add("active-css");
+      }
+    });
+  }
 });
 
 
