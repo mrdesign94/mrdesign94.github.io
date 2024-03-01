@@ -262,7 +262,7 @@ This element should be always in the same position on screen, like fixed to top.
 .c-mobile-menu a:active,
 .c-mobile-menu a:hover {
     /* style */
-    background-color: #757575;
+    /* background-color: #757575; */
 }
 
 /* -- mobile menu 'before' marker of the 1st level menu -- */
