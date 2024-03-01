@@ -67,6 +67,32 @@ document.addEventListener("DOMContentLoaded", function() {
 });
 
 
+document.addEventListener("DOMContentLoaded", function() {
+	const links = document.querySelectorAll("li.item_menu_css1 a");
+	const logo = document.querySelector(".logo-css");
+	const activeLink = sessionStorage.getItem("activeLink");
+
+	links.forEach(link => {
+		if (link.getAttribute("href") === activeLink) {
+			link.classList.add("active-css");
+		}
+
+		link.addEventListener("click", function(e) {
+			links.forEach(item => item.classList.remove("active-css"));
+			this.classList.add("active-css");
+			sessionStorage.setItem("activeLink", this.getAttribute("href"));
+		});
+	});
+
+	logo.addEventListener("click", function(e) {
+		e.preventDefault(); // Ngăn chặn hành động mặc định của liên kết
+		links.forEach(item => item.classList.remove("active-css")); // Xóa lớp active từ tất cả liên kết
+		const homeLink = document.querySelector('li.item_menu_css1 a[index.html]'); // Tìm liên kết trang chủ
+		homeLink.classList.add("active-css"); // Thêm lớp active vào liên kết trang chủ
+		sessionStorage.setItem("activeLink", "index.html"); // Lưu trạng thái "active" cho trang chủ
+	});
+});
+
 
 
 // console.log("Hello, World! tab-js");
