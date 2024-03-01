@@ -27,12 +27,12 @@ document.addEventListener("DOMContentLoaded", function() {
 
   links.forEach(link => {
     let slug = link.getAttribute("href").split("https://mrdesign94.github.io").reverse()[0];
-    // if (window.location.href.indexOf(slug) > -1) {
-    //   link.classList.add('active-css');
-    // }
-    // if (window.location.href.indexOf(slug) < -1) {
-    //   link.classList.remove('active-css');
-    // }
+    if (window.location.href.indexOf(slug) > -1) {
+      link.classList.add('active-css');
+    }
+    else (window.location.href.indexOf(slug) < -1) {
+      link.classList.remove('active-css');
+    }
 
     if (window.location.href === link.getAttribute("href")) {
       link.classList.add('active-css');
