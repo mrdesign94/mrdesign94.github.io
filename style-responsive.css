@@ -8,7 +8,9 @@
   .hidden-mobile {
     display: none!important;
   }
-
+	.item_menu_css .active {
+	  color: #ffc943!important;
+	}
 	.c-mobile-menu a.active::before {
 	  -webkit-mask-image: url(/asset/image/chevo.svg);
 	  mask-image: url(/asset/image/chevo.svg);
