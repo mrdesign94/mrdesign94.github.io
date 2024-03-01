@@ -15,7 +15,7 @@
 	}
 	.e-mobile-menu-input:checked~.e-mobile-menu__hamburger>.e-mobile-menu__hamburger__block:nth-child(2) {
 			opacity: 1;
-			transform: translateX(0px);
+			/* transform: translateX(0px); */
 			background-color: #ffc943;
 			position: absolute;
 			rotate: 90deg;
@@ -199,7 +199,7 @@ This element should be always in the same position on screen, like fixed to top.
     background-color: #fff;
     position: fixed; */
     opacity: 1;
-    transform: translateX(5px);
+    /* transform: translateX(5px); */
     background-color: #ffc943;
     position: absolute;
     rotate: 90deg;
