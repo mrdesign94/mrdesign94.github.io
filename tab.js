@@ -30,7 +30,7 @@ document.addEventListener("DOMContentLoaded", function() {
     if (window.location.href.indexOf(slug) > -1) {
       link.classList.add('active-css');
     }
-    if (window.location.href.indexOf(slug) < -1) {
+    if (window.location.href.indexOf(slug) < 0) {
       link.classList.remove('active-css');
     }
 
