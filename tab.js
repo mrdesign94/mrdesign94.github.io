@@ -26,7 +26,7 @@ document.addEventListener("DOMContentLoaded", function() {
   const links = document.querySelectorAll(".item_menu_css a");
 
   links.forEach(link => {
-    let slug = link.getAttribute("href").split("https://mrdesign94.github.io/").reverse()[0];
+    let slug = link.getAttribute("href").split("https://mrdesign94.github.io").reverse()[0];
     if (window.location.href.indexOf(slug) > -1) {
       link.classList.add('active-css');
       link.classList.remove('active-css');
