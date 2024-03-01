@@ -24,7 +24,7 @@
 @media only screen and (max-width: 690px) {
 
 .mobile-menu {
-  display: block!important;
+  display: flex!important;
 }
 
 .btn-call-mobile a {
