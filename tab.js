@@ -60,9 +60,9 @@ document.addEventListener("DOMContentLoaded", function() {
 	logo.addEventListener("click", function(e) {
 		e.preventDefault(); // Ngăn chặn hành động mặc định của liên kết
 		links.forEach(item => item.classList.remove("active-css")); // Xóa lớp active từ tất cả liên kết
-		const homeLink = document.querySelector('nav.menu a[href="https://mrdesign94.github.io/"]'); // Tìm liên kết trang chủ
+		const homeLink = document.querySelector('nav.menu a[site.baseurl]'); // Tìm liên kết trang chủ
 		homeLink.classList.add("active-css"); // Thêm lớp active vào liên kết trang chủ
-		sessionStorage.setItem("activeLink", "https://mrdesign94.github.io/"); // Lưu trạng thái "active" cho trang chủ
+		sessionStorage.setItem("activeLink", "site.baseurl"); // Lưu trạng thái "active" cho trang chủ
 	});
 });
 
