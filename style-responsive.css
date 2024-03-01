@@ -276,7 +276,7 @@ This element should be always in the same position on screen, like fixed to top.
     }
     /* -- mobile menu container space of right side -- */
     .e-mobile-menu-input:checked~.e-mobile-menu__wrapper {
-        box-shadow: 500px 0px 5px 15px rgb(87 87 87 / 60%);
+        box-shadow: 450px 0px 5px 15px rgb(87 87 87 / 60%);
     }
 }
 
