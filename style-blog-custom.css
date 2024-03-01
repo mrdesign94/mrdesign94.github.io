@@ -772,6 +772,6 @@ a {
 
 }
 
-.item_menu_css.active-css {
-  color: darkblue!important;
+.item_menu_css .active-css {
+  color: #c4161c!important;
 }
