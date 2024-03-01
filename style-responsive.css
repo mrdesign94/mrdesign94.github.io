@@ -17,6 +17,38 @@
 	  background-color: #ffc943!important;
 	}
 
+	.e-mobile-menu-input:checked~.e-mobile-menu__hamburger>.e-mobile-menu__hamburger__block:nth-child(1) {
+	    /* top: 10px;
+	    transform: rotate(+45deg);
+	    background-color: #ffc943; */
+	    top: 10px;
+	    transform: rotate(+90deg);
+	    background-color: #ffc943;
+	    right: 140px;
+	    position: fixed;
+	    transition: 0.3s;
+
+	}
+	.e-mobile-menu-input:checked~.e-mobile-menu__hamburger>.e-mobile-menu__hamburger__block:nth-child(2) {
+	    opacity: 1;
+	    transform: translateX(5px);
+	    background-color: #ffc943;
+	    position: fixed;
+	    rotate: 90deg;
+	    transition: 0.3s;
+			right: 150px;
+			top: 5px;
+	}
+	.e-mobile-menu-input:checked~.e-mobile-menu__hamburger>.e-mobile-menu__hamburger__block:nth-child(3) {
+	    top: 10px;
+	    transform: rotate(-90deg);
+	    background-color: #ffc943;
+	    right: 160px;
+	    position: fixed;
+	    transition: 0.3s;
+	}
+
+
 
 }
 
