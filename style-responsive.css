@@ -186,6 +186,7 @@ This element should be always in the same position on screen, like fixed to top.
     position: relative;
     margin-left: -24px;
     z-index: 30;
+		right: 5px;
 }
 
 /* -- mobile menu hamburger element -- */
