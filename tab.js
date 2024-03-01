@@ -40,32 +40,47 @@ function openCity(evt, cityName) {
 
 
 
-document.addEventListener("DOMContentLoaded", function() {
-	const links = document.querySelectorAll("li.item_menu_css a");
-	const logo = document.querySelector(".logo-css");
-	const activeLink = sessionStorage.getItem("activeLink");
+// document.addEventListener("DOMContentLoaded", function() {
+// 	const links = document.querySelectorAll("li.item_menu_css a");
+// 	const logo = document.querySelector(".logo-css");
+// 	const activeLink = sessionStorage.getItem("activeLink");
+//
+// 	links.forEach(link => {
+// 		if (link.getAttribute("href") === activeLink) {
+// 			link.classList.add("active-css");
+// 		}
+//
+// 		link.addEventListener("click", function(e) {
+// 			links.forEach(item => item.classList.remove("active-css"));
+// 			this.classList.add("active-css");
+// 			sessionStorage.setItem("activeLink", this.getAttribute("href"));
+// 		});
+// 	});
+//
+// 	logo.addEventListener("click", function(e) {
+// 		e.preventDefault(); // Ngăn chặn hành động mặc định của liên kết
+// 		links.forEach(item => item.classList.remove("active-css")); // Xóa lớp active từ tất cả liên kết
+// 		const homeLink = document.querySelector('li.item_menu_css a[index]'); // Tìm liên kết trang chủ
+// 		homeLink.classList.add("active-css"); // Thêm lớp active vào liên kết trang chủ
+// 		sessionStorage.setItem("activeLink", "index"); // Lưu trạng thái "active" cho trang chủ
+// 	});
+// });
 
-	links.forEach(link => {
-		if (link.getAttribute("href") === activeLink) {
-			link.classList.add("active-css");
+
+
+let navlist = document.querySelectorAll('.item_menu_css');
+
+for (let i = 0; i < navlist.length; i++) {
+	item_menu_css[i].addEventListener('click', function() {
+		for (let x = 0; x < item_menu_css.length; x++) {
+			if (item_menu_css[x] == this) {
+				item_menu_css[x].classList.add('active');
+			} else {
+				item_menu_css[x].classList.remove('active');
+			}
 		}
-
-		link.addEventListener("click", function(e) {
-			links.forEach(item => item.classList.remove("active-css"));
-			this.classList.add("active-css");
-			sessionStorage.setItem("activeLink", this.getAttribute("href"));
-		});
 	});
-
-	logo.addEventListener("click", function(e) {
-		e.preventDefault(); // Ngăn chặn hành động mặc định của liên kết
-		links.forEach(item => item.classList.remove("active-css")); // Xóa lớp active từ tất cả liên kết
-		const homeLink = document.querySelector('li.item_menu_css a[index]'); // Tìm liên kết trang chủ
-		homeLink.classList.add("active-css"); // Thêm lớp active vào liên kết trang chủ
-		sessionStorage.setItem("activeLink", "index"); // Lưu trạng thái "active" cho trang chủ
-	});
-});
-
+}
 
 
 
