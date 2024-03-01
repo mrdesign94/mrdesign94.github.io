@@ -768,7 +768,10 @@ a {
 
 
 .menu-css-nav.active-css{
-  background-color:#c4161c;
-  color:yellow;
+  color:#c4161c;
 
+}
+
+.item_menu_css.active-css {
+  color: darkblue!important;
 }

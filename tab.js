@@ -1,10 +1,3 @@
-$(document).ready(function(){
-  $('ul li a').click(function(){
-    $('li a').removeClass("active-css");
-    $(this).addClass("active-css");
-});
-});
-
 console.log("Hello, World! tab-js");
 function openCity(evt, cityName) {
   var i, tabcontent, tablinks;
@@ -28,6 +21,21 @@ function openCity(evt, cityName) {
 }
 
 
+
+document.addEventListener("DOMContentLoaded", function() {
+  const links = document.querySelectorAll(".item_menu_css a");
+
+  links.forEach(link => {
+    let slug = link.getAttribute("href").split("https://mrdesign94.github.io/").reverse()[0];
+    if (window.location.href.indexOf(slug) > -1) {
+      link.classList.add('active');
+    }
+
+    if (window.location.href === link.getAttribute("href")) {
+      link.classList.add('active-css');
+    }
+  });
+});
 
 
 // console.log("Hello, World! tab-js");
