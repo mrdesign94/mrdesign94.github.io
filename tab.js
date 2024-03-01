@@ -49,7 +49,7 @@ if (currentUrl.slice(-1) === "/") {
 }
 
 // Select all <a> tags in the vertical menu
-var menuLinks = document.querySelectorAll('.menu-css a');
+var menuLinks = document.querySelectorAll('.item_menu_css a');
 
 // Iterate through all the links in the menu and add class "active" if the URL of the link matches the URL of the current page
 menuLinks.forEach(function(link) {
